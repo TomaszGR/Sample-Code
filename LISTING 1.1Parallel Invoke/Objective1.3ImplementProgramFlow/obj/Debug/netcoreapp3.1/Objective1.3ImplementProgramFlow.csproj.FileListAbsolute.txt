@@ -1,0 +1,13 @@
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\Objective1.3ImplementProgramFlow\bin\Debug\netcoreapp3.1\Objective1.3ImplementProgramFlow.exe
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\Objective1.3ImplementProgramFlow\bin\Debug\netcoreapp3.1\Objective1.3ImplementProgramFlow.deps.json
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\Objective1.3ImplementProgramFlow\bin\Debug\netcoreapp3.1\Objective1.3ImplementProgramFlow.runtimeconfig.json
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\Objective1.3ImplementProgramFlow\bin\Debug\netcoreapp3.1\Objective1.3ImplementProgramFlow.runtimeconfig.dev.json
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\Objective1.3ImplementProgramFlow\bin\Debug\netcoreapp3.1\Objective1.3ImplementProgramFlow.dll
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\Objective1.3ImplementProgramFlow\bin\Debug\netcoreapp3.1\Objective1.3ImplementProgramFlow.pdb
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\Objective1.3ImplementProgramFlow\obj\Debug\netcoreapp3.1\Objective1.3ImplementProgramFlow.csprojAssemblyReference.cache
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\Objective1.3ImplementProgramFlow\obj\Debug\netcoreapp3.1\Objective1.3ImplementProgramFlow.AssemblyInfoInputs.cache
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\Objective1.3ImplementProgramFlow\obj\Debug\netcoreapp3.1\Objective1.3ImplementProgramFlow.AssemblyInfo.cs
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\Objective1.3ImplementProgramFlow\obj\Debug\netcoreapp3.1\Objective1.3ImplementProgramFlow.csproj.CoreCompileInputs.cache
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\Objective1.3ImplementProgramFlow\obj\Debug\netcoreapp3.1\Objective1.3ImplementProgramFlow.dll
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\Objective1.3ImplementProgramFlow\obj\Debug\netcoreapp3.1\Objective1.3ImplementProgramFlow.pdb
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\Objective1.3ImplementProgramFlow\obj\Debug\netcoreapp3.1\Objective1.3ImplementProgramFlow.genruntimeconfig.cache

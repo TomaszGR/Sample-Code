@@ -1,0 +1,13 @@
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\Listening1.2ManageMultithreading\bin\Debug\netcoreapp3.1\Listing1.2ManageMultithreading.exe
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\Listening1.2ManageMultithreading\bin\Debug\netcoreapp3.1\Listing1.2ManageMultithreading.deps.json
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\Listening1.2ManageMultithreading\bin\Debug\netcoreapp3.1\Listing1.2ManageMultithreading.runtimeconfig.json
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\Listening1.2ManageMultithreading\bin\Debug\netcoreapp3.1\Listing1.2ManageMultithreading.runtimeconfig.dev.json
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\Listening1.2ManageMultithreading\bin\Debug\netcoreapp3.1\Listing1.2ManageMultithreading.dll
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\Listening1.2ManageMultithreading\bin\Debug\netcoreapp3.1\Listing1.2ManageMultithreading.pdb
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\Listening1.2ManageMultithreading\obj\Debug\netcoreapp3.1\Listing1.2ManageMultithreading.csprojAssemblyReference.cache
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\Listening1.2ManageMultithreading\obj\Debug\netcoreapp3.1\Listing1.2ManageMultithreading.AssemblyInfoInputs.cache
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\Listening1.2ManageMultithreading\obj\Debug\netcoreapp3.1\Listing1.2ManageMultithreading.AssemblyInfo.cs
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\Listening1.2ManageMultithreading\obj\Debug\netcoreapp3.1\Listing1.2ManageMultithreading.csproj.CoreCompileInputs.cache
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\Listening1.2ManageMultithreading\obj\Debug\netcoreapp3.1\Listing1.2ManageMultithreading.dll
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\Listening1.2ManageMultithreading\obj\Debug\netcoreapp3.1\Listing1.2ManageMultithreading.pdb
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\Listening1.2ManageMultithreading\obj\Debug\netcoreapp3.1\Listing1.2ManageMultithreading.genruntimeconfig.cache

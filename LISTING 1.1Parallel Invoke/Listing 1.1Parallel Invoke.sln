@@ -1,9 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2026
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Listing 1.1Parallel Invoke", "Listing 1.1Parallel Invoke\Listing 1.1Parallel Invoke.csproj", "{FE6D2AD2-924D-4402-A6C3-882D33CB8B3B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Listing1.2ManageMultithreading", "..\Listening1.2ManageMultithreading\Listing1.2ManageMultithreading.csproj", "{198FF2F2-D15D-4E70-B6EB-D66FE337911A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelperProj", "HelperProj\HelperProj.csproj", "{253130C6-36D2-4214-8B65-F541426F40EA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Objective1.3ImplementProgramFlow", "Objective1.3ImplementProgramFlow\Objective1.3ImplementProgramFlow.csproj", "{225DB411-1978-4E74-A80C-5BA97279C5C4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Objective1.4CreateAndImplementEventsAndCallbacks", "Objective1.4CreateAndImplementEventsAndCallbacks\Objective1.4CreateAndImplementEventsAndCallbacks.csproj", "{868AF6E8-068C-43F7-8447-001B65171686}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ĘventHendlerDiveIn", "ĘventHendlerDiveIn\ĘventHendlerDiveIn.csproj", "{C4A76DA9-A472-4BF0-BAF7-527F9017C2E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +25,26 @@ Global
 		{FE6D2AD2-924D-4402-A6C3-882D33CB8B3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE6D2AD2-924D-4402-A6C3-882D33CB8B3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE6D2AD2-924D-4402-A6C3-882D33CB8B3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{198FF2F2-D15D-4E70-B6EB-D66FE337911A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{198FF2F2-D15D-4E70-B6EB-D66FE337911A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{198FF2F2-D15D-4E70-B6EB-D66FE337911A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{198FF2F2-D15D-4E70-B6EB-D66FE337911A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{253130C6-36D2-4214-8B65-F541426F40EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{253130C6-36D2-4214-8B65-F541426F40EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{253130C6-36D2-4214-8B65-F541426F40EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{253130C6-36D2-4214-8B65-F541426F40EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{225DB411-1978-4E74-A80C-5BA97279C5C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{225DB411-1978-4E74-A80C-5BA97279C5C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{225DB411-1978-4E74-A80C-5BA97279C5C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{225DB411-1978-4E74-A80C-5BA97279C5C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{868AF6E8-068C-43F7-8447-001B65171686}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{868AF6E8-068C-43F7-8447-001B65171686}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{868AF6E8-068C-43F7-8447-001B65171686}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{868AF6E8-068C-43F7-8447-001B65171686}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4A76DA9-A472-4BF0-BAF7-527F9017C2E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4A76DA9-A472-4BF0-BAF7-527F9017C2E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4A76DA9-A472-4BF0-BAF7-527F9017C2E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4A76DA9-A472-4BF0-BAF7-527F9017C2E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

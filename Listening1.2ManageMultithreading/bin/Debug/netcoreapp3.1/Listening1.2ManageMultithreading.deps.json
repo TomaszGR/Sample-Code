@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Listening1.2ManageMultithreading/1.0.0": {
+        "runtime": {
+          "Listening1.2ManageMultithreading.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Listening1.2ManageMultithreading/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

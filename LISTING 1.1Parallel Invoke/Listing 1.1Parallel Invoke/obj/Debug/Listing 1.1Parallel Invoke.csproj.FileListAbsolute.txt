@@ -12,3 +12,10 @@ C:\Users\Rob\Documents\GitHub\Sample-Code\LISTING 1.1Parallel Invoke\Listing 1.1
 C:\Users\Rob\Documents\GitHub\Sample-Code\LISTING 1.1Parallel Invoke\Listing 1.1Parallel Invoke\obj\Debug\Listing 1.1Parallel Invoke.csproj.CoreCompileInputs.cache
 C:\Users\Rob\Documents\GitHub\Sample-Code\LISTING 1.1Parallel Invoke\Listing 1.1Parallel Invoke\obj\Debug\Listing 1.1Parallel Invoke.exe
 C:\Users\Rob\Documents\GitHub\Sample-Code\LISTING 1.1Parallel Invoke\Listing 1.1Parallel Invoke\obj\Debug\Listing 1.1Parallel Invoke.pdb
+c:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\Listing 1.1Parallel Invoke\bin\Debug\Listing 1.1Parallel Invoke.exe.config
+c:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\Listing 1.1Parallel Invoke\bin\Debug\Listing 1.1Parallel Invoke.exe
+c:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\Listing 1.1Parallel Invoke\bin\Debug\Listing 1.1Parallel Invoke.pdb
+c:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\Listing 1.1Parallel Invoke\obj\Debug\Listing 1.1Parallel Invoke.csprojAssemblyReference.cache
+c:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\Listing 1.1Parallel Invoke\obj\Debug\Listing 1.1Parallel Invoke.csproj.CoreCompileInputs.cache
+c:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\Listing 1.1Parallel Invoke\obj\Debug\Listing 1.1Parallel Invoke.exe
+c:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\Listing 1.1Parallel Invoke\obj\Debug\Listing 1.1Parallel Invoke.pdb

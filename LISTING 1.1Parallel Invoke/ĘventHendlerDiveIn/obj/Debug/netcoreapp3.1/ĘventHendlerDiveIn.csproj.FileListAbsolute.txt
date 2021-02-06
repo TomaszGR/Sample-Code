@@ -1,0 +1,13 @@
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\ĘventHendlerDiveIn\bin\Debug\netcoreapp3.1\ĘventHendlerDiveIn.exe
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\ĘventHendlerDiveIn\bin\Debug\netcoreapp3.1\ĘventHendlerDiveIn.deps.json
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\ĘventHendlerDiveIn\bin\Debug\netcoreapp3.1\ĘventHendlerDiveIn.runtimeconfig.json
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\ĘventHendlerDiveIn\bin\Debug\netcoreapp3.1\ĘventHendlerDiveIn.runtimeconfig.dev.json
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\ĘventHendlerDiveIn\bin\Debug\netcoreapp3.1\ĘventHendlerDiveIn.dll
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\ĘventHendlerDiveIn\bin\Debug\netcoreapp3.1\ĘventHendlerDiveIn.pdb
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\ĘventHendlerDiveIn\obj\Debug\netcoreapp3.1\ĘventHendlerDiveIn.AssemblyInfoInputs.cache
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\ĘventHendlerDiveIn\obj\Debug\netcoreapp3.1\ĘventHendlerDiveIn.AssemblyInfo.cs
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\ĘventHendlerDiveIn\obj\Debug\netcoreapp3.1\ĘventHendlerDiveIn.csproj.CoreCompileInputs.cache
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\ĘventHendlerDiveIn\obj\Debug\netcoreapp3.1\ĘventHendlerDiveIn.dll
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\ĘventHendlerDiveIn\obj\Debug\netcoreapp3.1\ĘventHendlerDiveIn.pdb
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\ĘventHendlerDiveIn\obj\Debug\netcoreapp3.1\ĘventHendlerDiveIn.genruntimeconfig.cache
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\ĘventHendlerDiveIn\obj\Debug\netcoreapp3.1\ĘventHendlerDiveIn.csprojAssemblyReference.cache
