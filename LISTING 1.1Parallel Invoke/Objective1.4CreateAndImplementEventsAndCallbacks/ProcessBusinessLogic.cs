@@ -11,10 +11,10 @@ namespace Objective1._4CreateAndImplementEventsAndCallbacks
    }
    public class ProcessBusinessLogic
    {
-    // declaring an event using built-in EventHandler!!
-    // TO jest KONTRAKT pomiędzy Subskrybentem a Nadawcą
-    public event EventHandler ProcessCompleted; 
-    public event EventHandler<Person> ProcessCompleted2; 
+      // declaring an event using built-in EventHandler!!
+      // TO jest KONTRAKT pomiędzy Subskrybentem a Nadawcą
+      public event EventHandler ProcessCompleted;
+      public event EventHandler<Person> ProcessCompleted2;
 
       public void StartProcess()
       {
@@ -28,7 +28,7 @@ namespace Objective1._4CreateAndImplementEventsAndCallbacks
       {
          Console.WriteLine($"process print name start...");
          //Some code
-         OnProcessStartPrintName(person, EventArgs.Empty); // brak argumentów
+         OnProcessStartPrintName(person); // brak argumentów
          Console.WriteLine($"process print name end...");
       }
 
@@ -36,11 +36,11 @@ namespace Objective1._4CreateAndImplementEventsAndCallbacks
       {
          ProcessCompleted?.Invoke(this, e);
       }
-      
-      protected virtual void OnProcessStartPrintName(Person person, EventArgs e)
+
+      protected virtual void OnProcessStartPrintName(Person e)
       {
-         Console.WriteLine($" Person first name is: {person.FirstName}");
-         ProcessCompleted?.Invoke(this, e);
+         Console.WriteLine($" Person first name is: {e.FirstName}");
+         ProcessCompleted2?.Invoke(this, e);
       }
 
 

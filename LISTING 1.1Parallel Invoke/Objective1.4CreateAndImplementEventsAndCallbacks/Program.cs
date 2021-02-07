@@ -144,50 +144,107 @@ namespace Objective1._4CreateAndImplementEventsAndCallbacks
 
    //   }
 
-  // }
+   // }
    #endregion
    #region EventHendler
-  //class Program
-  //{
-  //   static void Main(string[] args)
-  //   {
-  //      var per = new Person() { FirstName = "Tom", Surname = "Kowal" };
-  //      var publisher = new ProcessBusinessLogic();
-  //      //publisher.ProcessCompleted += () => Console.WriteLine($"Foo");
-  //      publisher.ProcessCompleted += EventHendlerMethod;
-  //      publisher.ProcessCompleted += (object o, EventArgs e) => Console.WriteLine("aa");
-  //      publisher.StartProcess();
-  //
-  //      Console.WriteLine($"end");
-  //   }
-  //
-  //   //eventhendler method
-  //   public static void EventHendlerMethod(object sender, EventArgs e)
-  //   {
-  //      Console.WriteLine($"HendlerMethod insted of Labmda");
-  //   }
-  //
-  //}
+   //class Program
+   //{
+   //   static void Main(string[] args)
+   //   {
+   //      var per = new Person() { FirstName = "Tom", Surname = "Kowal" };
+   //      var publisher = new ProcessBusinessLogic();
+   //      //publisher.ProcessCompleted += () => Console.WriteLine($"Foo");
+   //      publisher.ProcessCompleted += EventHendlerMethod;
+   //      publisher.ProcessCompleted += (object o, EventArgs e) => Console.WriteLine("aa");
+   //      publisher.StartProcess();
+
+   //      Console.WriteLine($"end");
+   //   }
+
+   //   //eventhendler method
+   //   public static void EventHendlerMethod(object sender, EventArgs e)
+   //   {
+   //      Console.WriteLine($"HendlerMethod insted of Labmda");
+   //   }
+
+   //}
    #endregion
    #region EventHandler<TEventArgs> Delegat
+   //class Program
+   //{
+   //   static void Main(string[] args)
+   //   {
+   //      var per = new Person() { FirstName = "Tom", Surname = "Kowal" };
+   //      var publisher = new ProcessBusinessLogic();
+   //      publisher.ProcessCompleted2 += EventHendlerMethodPrintName;
+   //      publisher.StartProcessPrintName(per);
+   //      Console.WriteLine($"end");
+   //   }
+
+   //   //EventHendler method
+   //   // METODA która pasuje do KONTAKTU, spełnia warunki delegaty
+   //   public static void EventHendlerMethodPrintName(object sender, Person e)
+   //   {
+   //      Console.WriteLine($"EventHendlerMethodPrintName insted of Labmda {e.FirstName} surname: {e.Surname}");
+   //   }
+   //}
+   #endregion
+
+   #region EventHendler exeption
+
    class Program
    {
       static void Main(string[] args)
       {
-         var per = new Person() { FirstName = "Tom", Surname = "Kowal" };
-         var publisher = new ProcessBusinessLogic();
-         publisher.ProcessCompleted2 += EventHendlerMethodPrintName;
-         publisher.StartProcessPrintName(per);
+         Program p = new Program();
+         Publisher publisher = new Publisher();
+         MyArgs myArgs = new MyArgs(12345);
+         publisher.OnChange += Publisher_OnChange;
+         publisher.OnChange += Publisher_OnChangeEx;
+         publisher.OnChange += Publisher_OnChange;
+         publisher.Raise(myArgs);
+
+      //   p.CreateAndRaise();
 
          Console.WriteLine($"end");
+         Console.ReadLine();
+      }
+      private static void Publisher_OnChange(object sender, MyArgs e)
+      {
+         Console.WriteLine($"PublisherOnChange method value equals: {e.Value}");
       }
 
-      //EventHendler method
-      // METODA która pasuje do KONTAKTU, spełnia warunki delegaty
-      public static void EventHendlerMethodPrintName(object sender, EventArgs e)
+      private static void Publisher_OnChangeEx(object sender, MyArgs e)
       {
-         Console.WriteLine($"HendlerMethod insted of Labmda");
+         throw new Exception("foo");
       }
+
+
+      //public void CreateAndRaise()
+      //{
+      //   //Pub pub = new Pub();
+      //   ////pub.OnChange += () => Console.WriteLine($" event raised to method 1");
+      //   //pub.OnChange += (sender, e) => Console.WriteLine($"EventHendler1: {e.Value}");
+      //   //pub.OnChange += (sender, e) => { throw new Exception(); };
+      //   //pub.OnChange += (sender, e) => Console.WriteLine($"EventHendler2: {e.Value}");
+      //   //pub.Raise();
+
+      //   Publisher p = new Publisher();
+      //   p.OnChange += (sender, e) => Console.WriteLine("Subscriber 1 called");
+      //   p.OnChange += (sender, e) => { throw new Exception(); };
+      //   p.OnChange += (sender, e) => Console.WriteLine("Subscriber 3 called");
+      //   try
+      //   {
+      //      p.Raise();
+      //   }
+      //   catch (AggregateException ex)
+      //   {
+      //      Console.WriteLine(ex.InnerExceptions.Count);
+      //   }
+
+      //}
+
    }
    #endregion
+
 }

@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace Objective1._4CreateAndImplementEventsAndCallbacks
 {
@@ -13,34 +12,40 @@ namespace Objective1._4CreateAndImplementEventsAndCallbacks
          Value = value;
       }
    }
+
    public class Publisher
    {
-      public event EventHandler<MyArgs> OnChange = delegate { };
-      //public event Action OnChange = delegate { };
-      //public Action OnChange { get; set; }
- 
-      public void Raise()
-      {
-         //OnChange(this, e: new MyArgs(2345));
+      public event EventHandler<MyArgs> OnChange;
 
-         var exceptions = new List<Exception>();
-         foreach (Delegate handler in OnChange.GetInvocationList())
+      public void Raise(MyArgs myArgs)
+      {
+         Console.WriteLine($"Start pulishing");
+         OnRise(myArgs);
+      }
+
+      protected virtual void OnRise(MyArgs myArgs)
+      {
+         Console.WriteLine($"OnRise protected method fire Invoke");
+
+         List<Exception> exeptions = new List<Exception>();
+
+         foreach (Delegate @delegate in OnChange.GetInvocationList())
          {
             try
             {
-               handler.DynamicInvoke(this, EventArgs.Empty);
+               @delegate.DynamicInvoke(this, myArgs);
             }
-            catch (Exception ex)
+            catch (Exception e)
             {
-               exceptions.Add(ex);
+               exeptions.Add(e);
             }
          }
-         if (exceptions.Any())
+
+         if (exeptions.Any())
          {
-            throw new AggregateException(exceptions);
+            throw new AggregateException(exeptions);
          }
+
       }
-   
-   
    }
 }

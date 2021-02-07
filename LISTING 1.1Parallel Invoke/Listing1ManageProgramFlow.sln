@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Objective1.4CreateAndImplem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHendlerDiveIn", "ĘventHendlerDiveIn\EventHendlerDiveIn.csproj", "{C4A76DA9-A472-4BF0-BAF7-527F9017C2E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Objective1.5ImplementExceptionHandling", "Objective1.5ImplementExceptionHandling\Objective1.5ImplementExceptionHandling.csproj", "{9DAAB466-FCDE-46B9-A39A-4A2F479B02B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{C4A76DA9-A472-4BF0-BAF7-527F9017C2E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4A76DA9-A472-4BF0-BAF7-527F9017C2E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4A76DA9-A472-4BF0-BAF7-527F9017C2E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DAAB466-FCDE-46B9-A39A-4A2F479B02B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DAAB466-FCDE-46B9-A39A-4A2F479B02B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DAAB466-FCDE-46B9-A39A-4A2F479B02B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DAAB466-FCDE-46B9-A39A-4A2F479B02B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,13 @@
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\Objective1.5ImplementExceptionHandling\bin\Debug\netcoreapp3.1\Objective1.5ImplementExceptionHandling.exe
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\Objective1.5ImplementExceptionHandling\bin\Debug\netcoreapp3.1\Objective1.5ImplementExceptionHandling.deps.json
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\Objective1.5ImplementExceptionHandling\bin\Debug\netcoreapp3.1\Objective1.5ImplementExceptionHandling.runtimeconfig.json
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\Objective1.5ImplementExceptionHandling\bin\Debug\netcoreapp3.1\Objective1.5ImplementExceptionHandling.runtimeconfig.dev.json
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\Objective1.5ImplementExceptionHandling\bin\Debug\netcoreapp3.1\Objective1.5ImplementExceptionHandling.dll
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\Objective1.5ImplementExceptionHandling\bin\Debug\netcoreapp3.1\Objective1.5ImplementExceptionHandling.pdb
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\Objective1.5ImplementExceptionHandling\obj\Debug\netcoreapp3.1\Objective1.5ImplementExceptionHandling.csprojAssemblyReference.cache
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\Objective1.5ImplementExceptionHandling\obj\Debug\netcoreapp3.1\Objective1.5ImplementExceptionHandling.AssemblyInfoInputs.cache
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\Objective1.5ImplementExceptionHandling\obj\Debug\netcoreapp3.1\Objective1.5ImplementExceptionHandling.AssemblyInfo.cs
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\Objective1.5ImplementExceptionHandling\obj\Debug\netcoreapp3.1\Objective1.5ImplementExceptionHandling.csproj.CoreCompileInputs.cache
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\Objective1.5ImplementExceptionHandling\obj\Debug\netcoreapp3.1\Objective1.5ImplementExceptionHandling.dll
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\Objective1.5ImplementExceptionHandling\obj\Debug\netcoreapp3.1\Objective1.5ImplementExceptionHandling.pdb
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\Objective1.5ImplementExceptionHandling\obj\Debug\netcoreapp3.1\Objective1.5ImplementExceptionHandling.genruntimeconfig.cache

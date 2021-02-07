@@ -4,7 +4,6 @@ C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\
 C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\HelperProj\bin\Debug\netcoreapp3.1\HelperProj.runtimeconfig.dev.json
 C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\HelperProj\bin\Debug\netcoreapp3.1\HelperProj.dll
 C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\HelperProj\bin\Debug\netcoreapp3.1\HelperProj.pdb
-C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\HelperProj\obj\Debug\netcoreapp3.1\HelperProj.csprojAssemblyReference.cache
 C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\HelperProj\obj\Debug\netcoreapp3.1\HelperProj.AssemblyInfoInputs.cache
 C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\HelperProj\obj\Debug\netcoreapp3.1\HelperProj.AssemblyInfo.cs
 C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\HelperProj\obj\Debug\netcoreapp3.1\HelperProj.csproj.CoreCompileInputs.cache

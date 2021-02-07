@@ -3,13 +3,11 @@ using System.Threading;
 
 namespace EventHendlerDiveIn
 {
-
    // klasa która przekazuje referencje do Video musi dziedziczyć po klasie EventArgs 
    public class VideoEventArgs : EventArgs
    {
       public Video Video { get; set; }
    }
-
 
    //publisher
    //rozwiązanie z wykorzystaniem EventHendlerem powoduje że ta klasa nie musi być
@@ -46,7 +44,5 @@ namespace EventHendlerDiveIn
       {
          VideoEncoded?.Invoke(this, new VideoEventArgs() { Video = video });
       }
-
-
    }
 }
