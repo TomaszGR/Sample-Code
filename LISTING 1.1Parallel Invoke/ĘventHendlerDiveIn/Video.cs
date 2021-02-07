@@ -1,4 +1,4 @@
-﻿namespace ĘventHendlerDiveIn
+﻿namespace EventHendlerDiveIn
 {
    public class Video
    {

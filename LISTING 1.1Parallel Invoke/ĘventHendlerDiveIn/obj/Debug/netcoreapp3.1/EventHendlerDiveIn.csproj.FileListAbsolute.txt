@@ -1,0 +1,13 @@
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\ĘventHendlerDiveIn\bin\Debug\netcoreapp3.1\EventHendlerDiveIn.exe
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\ĘventHendlerDiveIn\bin\Debug\netcoreapp3.1\EventHendlerDiveIn.deps.json
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\ĘventHendlerDiveIn\bin\Debug\netcoreapp3.1\EventHendlerDiveIn.runtimeconfig.json
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\ĘventHendlerDiveIn\bin\Debug\netcoreapp3.1\EventHendlerDiveIn.runtimeconfig.dev.json
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\ĘventHendlerDiveIn\bin\Debug\netcoreapp3.1\EventHendlerDiveIn.dll
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\ĘventHendlerDiveIn\bin\Debug\netcoreapp3.1\EventHendlerDiveIn.pdb
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\ĘventHendlerDiveIn\obj\Debug\netcoreapp3.1\EventHendlerDiveIn.csprojAssemblyReference.cache
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\ĘventHendlerDiveIn\obj\Debug\netcoreapp3.1\EventHendlerDiveIn.AssemblyInfoInputs.cache
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\ĘventHendlerDiveIn\obj\Debug\netcoreapp3.1\EventHendlerDiveIn.AssemblyInfo.cs
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\ĘventHendlerDiveIn\obj\Debug\netcoreapp3.1\EventHendlerDiveIn.csproj.CoreCompileInputs.cache
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\ĘventHendlerDiveIn\obj\Debug\netcoreapp3.1\EventHendlerDiveIn.dll
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\ĘventHendlerDiveIn\obj\Debug\netcoreapp3.1\EventHendlerDiveIn.pdb
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1.1Parallel Invoke\ĘventHendlerDiveIn\obj\Debug\netcoreapp3.1\EventHendlerDiveIn.genruntimeconfig.cache

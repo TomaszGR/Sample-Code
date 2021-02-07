@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tomasz.grzadziel\\repos\\learning\\Sample-Code\\LISTING 1.1Parallel Invoke\\ĘventHendlerDiveIn\\ĘventHendlerDiveIn.csproj",
-      "projectName": "ĘventHendlerDiveIn",
-      "projectPath": "C:\\Users\\tomasz.grzadziel\\repos\\learning\\Sample-Code\\LISTING 1.1Parallel Invoke\\ĘventHendlerDiveIn\\ĘventHendlerDiveIn.csproj",
+      "projectUniqueName": "C:\\Users\\tomasz.grzadziel\\repos\\learning\\Sample-Code\\LISTING 1.1Parallel Invoke\\ĘventHendlerDiveIn\\EventHendlerDiveIn.csproj",
+      "projectName": "EventHendlerDiveIn",
+      "projectPath": "C:\\Users\\tomasz.grzadziel\\repos\\learning\\Sample-Code\\LISTING 1.1Parallel Invoke\\ĘventHendlerDiveIn\\EventHendlerDiveIn.csproj",
       "packagesPath": "C:\\Users\\tomasz.grzadziel\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\tomasz.grzadziel\\repos\\learning\\Sample-Code\\LISTING 1.1Parallel Invoke\\ĘventHendlerDiveIn\\obj\\",
       "projectStyle": "PackageReference",

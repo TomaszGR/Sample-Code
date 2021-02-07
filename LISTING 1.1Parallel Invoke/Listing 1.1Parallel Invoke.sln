@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Objective1.3ImplementProgra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Objective1.4CreateAndImplementEventsAndCallbacks", "Objective1.4CreateAndImplementEventsAndCallbacks\Objective1.4CreateAndImplementEventsAndCallbacks.csproj", "{868AF6E8-068C-43F7-8447-001B65171686}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ĘventHendlerDiveIn", "ĘventHendlerDiveIn\ĘventHendlerDiveIn.csproj", "{C4A76DA9-A472-4BF0-BAF7-527F9017C2E5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHendlerDiveIn", "ĘventHendlerDiveIn\EventHendlerDiveIn.csproj", "{C4A76DA9-A472-4BF0-BAF7-527F9017C2E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
