@@ -82,7 +82,7 @@ namespace Objective1._5ImplementExceptionHandling
       {
          Console.WriteLine($"start");
 
-         throw new OrderProcessingException(3,"orderEx", new Exception("base"));
+          throw new OrderProcessingException(3,"orderEx", new Exception("base"));
       
          Console.WriteLine($"stop");
       }

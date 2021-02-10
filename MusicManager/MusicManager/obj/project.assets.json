@@ -9122,37 +9122,38 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Rob\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
+    "C:\\Users\\tomasz.grzadziel\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rob\\Documents\\GitHub\\Sample-Code\\MusicManager\\MusicManager\\MusicManager.csproj",
+      "projectUniqueName": "c:\\Users\\tomasz.grzadziel\\repos\\learning\\Sample-Code\\MusicManager\\MusicManager\\MusicManager.csproj",
       "projectName": "MusicManager",
-      "projectPath": "C:\\Users\\Rob\\Documents\\GitHub\\Sample-Code\\MusicManager\\MusicManager\\MusicManager.csproj",
-      "packagesPath": "C:\\Users\\Rob\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rob\\Documents\\GitHub\\Sample-Code\\MusicManager\\MusicManager\\obj\\",
+      "projectPath": "c:\\Users\\tomasz.grzadziel\\repos\\learning\\Sample-Code\\MusicManager\\MusicManager\\MusicManager.csproj",
+      "packagesPath": "C:\\Users\\tomasz.grzadziel\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\tomasz.grzadziel\\repos\\learning\\Sample-Code\\MusicManager\\MusicManager\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Rob\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "C:\\Users\\tomasz.grzadziel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net461"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "\\\\public\\versions\\archITekt\\17.1\\!Official": {},
+        "\\\\public\\versions\\archITekt\\18.1\\!Official": {},
+        "http://constructor/nuget.server/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net461": {
+          "targetAlias": "net461",
           "projectReferences": {}
         }
       },
@@ -9164,6 +9165,7 @@
     },
     "frameworks": {
       "net461": {
+        "targetAlias": "net461",
         "dependencies": {
           "Microsoft.AspNetCore": {
             "target": "Package",
@@ -9202,7 +9204,8 @@
             "target": "Package",
             "version": "[2.0.3, )"
           }
-        }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

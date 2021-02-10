@@ -4,3 +4,9 @@ C:\Users\Rob\Documents\GitHub\Sample-Code\LISTING 1-83 Inner exceptions\LISTIN
 C:\Users\Rob\Documents\GitHub\Sample-Code\LISTING 1-83 Inner exceptions\LISTING 1-83 Inner exceptions\obj\Debug\LISTING 1-83 Inner exceptions.csproj.CoreCompileInputs.cache
 C:\Users\Rob\Documents\GitHub\Sample-Code\LISTING 1-83 Inner exceptions\LISTING 1-83 Inner exceptions\obj\Debug\LISTING 1-83 Inner exceptions.exe
 C:\Users\Rob\Documents\GitHub\Sample-Code\LISTING 1-83 Inner exceptions\LISTING 1-83 Inner exceptions\obj\Debug\LISTING 1-83 Inner exceptions.pdb
+c:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1-83 Inner exceptions\LISTING 1-83 Inner exceptions\bin\Debug\LISTING 1-83 Inner exceptions.exe.config
+c:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1-83 Inner exceptions\LISTING 1-83 Inner exceptions\bin\Debug\LISTING 1-83 Inner exceptions.exe
+c:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1-83 Inner exceptions\LISTING 1-83 Inner exceptions\bin\Debug\LISTING 1-83 Inner exceptions.pdb
+c:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1-83 Inner exceptions\LISTING 1-83 Inner exceptions\obj\Debug\LISTING 1-83 Inner exceptions.csproj.CoreCompileInputs.cache
+c:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1-83 Inner exceptions\LISTING 1-83 Inner exceptions\obj\Debug\LISTING 1-83 Inner exceptions.exe
+c:\Users\tomasz.grzadziel\repos\learning\Sample-Code\LISTING 1-83 Inner exceptions\LISTING 1-83 Inner exceptions\obj\Debug\LISTING 1-83 Inner exceptions.pdb

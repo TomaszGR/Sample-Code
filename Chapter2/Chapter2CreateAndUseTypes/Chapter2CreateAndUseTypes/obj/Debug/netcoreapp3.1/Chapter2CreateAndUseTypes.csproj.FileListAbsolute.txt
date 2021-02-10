@@ -1,0 +1,13 @@
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\Chapter2\Chapter2CreateAndUseTypes\Chapter2CreateAndUseTypes\bin\Debug\netcoreapp3.1\Chapter2CreateAndUseTypes.exe
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\Chapter2\Chapter2CreateAndUseTypes\Chapter2CreateAndUseTypes\bin\Debug\netcoreapp3.1\Chapter2CreateAndUseTypes.deps.json
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\Chapter2\Chapter2CreateAndUseTypes\Chapter2CreateAndUseTypes\bin\Debug\netcoreapp3.1\Chapter2CreateAndUseTypes.runtimeconfig.json
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\Chapter2\Chapter2CreateAndUseTypes\Chapter2CreateAndUseTypes\bin\Debug\netcoreapp3.1\Chapter2CreateAndUseTypes.runtimeconfig.dev.json
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\Chapter2\Chapter2CreateAndUseTypes\Chapter2CreateAndUseTypes\bin\Debug\netcoreapp3.1\Chapter2CreateAndUseTypes.dll
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\Chapter2\Chapter2CreateAndUseTypes\Chapter2CreateAndUseTypes\bin\Debug\netcoreapp3.1\Chapter2CreateAndUseTypes.pdb
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\Chapter2\Chapter2CreateAndUseTypes\Chapter2CreateAndUseTypes\obj\Debug\netcoreapp3.1\Chapter2CreateAndUseTypes.csprojAssemblyReference.cache
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\Chapter2\Chapter2CreateAndUseTypes\Chapter2CreateAndUseTypes\obj\Debug\netcoreapp3.1\Chapter2CreateAndUseTypes.AssemblyInfoInputs.cache
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\Chapter2\Chapter2CreateAndUseTypes\Chapter2CreateAndUseTypes\obj\Debug\netcoreapp3.1\Chapter2CreateAndUseTypes.AssemblyInfo.cs
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\Chapter2\Chapter2CreateAndUseTypes\Chapter2CreateAndUseTypes\obj\Debug\netcoreapp3.1\Chapter2CreateAndUseTypes.csproj.CoreCompileInputs.cache
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\Chapter2\Chapter2CreateAndUseTypes\Chapter2CreateAndUseTypes\obj\Debug\netcoreapp3.1\Chapter2CreateAndUseTypes.dll
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\Chapter2\Chapter2CreateAndUseTypes\Chapter2CreateAndUseTypes\obj\Debug\netcoreapp3.1\Chapter2CreateAndUseTypes.pdb
+C:\Users\tomasz.grzadziel\repos\learning\Sample-Code\Chapter2\Chapter2CreateAndUseTypes\Chapter2CreateAndUseTypes\obj\Debug\netcoreapp3.1\Chapter2CreateAndUseTypes.genruntimeconfig.cache
