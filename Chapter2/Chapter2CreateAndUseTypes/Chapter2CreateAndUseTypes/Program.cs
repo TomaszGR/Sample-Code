@@ -126,57 +126,118 @@ namespace Chapter2CreateAndUseTypes
    //}
    #endregion
    #region Using generic types, Extending existing types
+   //
+   //static class MyExtensions
+   //{
+   //   public static decimal Discount(this Product product)
+   //   {
+   //      return product.Price * .9M;
+   //   }
+   //}
+   //class Product
+   //{
+   //   public decimal Price { get; set; }
+   //
+   //   public virtual int MyVistualMethod()
+   //   {
+   //      return 100;
+   //   }
+   //}
+   //class Program : Product
+   //{
+   //   class MyClass<T> where T : class, new()
+   //   {
+   //      public MyClass()
+   //      {
+   //         MyProperty = new T();
+   //      }
+   //
+   //      public T MyProperty { get; set; }
+   //
+   //   }
+   //
+   //   public decimal CalculateDiscount(Product p)
+   //   {
+   //      return p.Discount();
+   //   }
+   //
+   //   public override int MyVistualMethod()
+   //   {
+   //      return base.MyVistualMethod() * 10;
+   //   }
+   //
+   //   static void Main(string[] args)
+   //   {
+   //      var prog = new Program();
+   //      var prod = new Product() { Price=100 };
+   //      Console.WriteLine($"calculate result: {prog.CalculateDiscount(prod)}");
+   //      Console.WriteLine($"override methd result: {prog.MyVistualMethod()}");
+   // 
+   //      Console.WriteLine($"stop");
+   //
+   //   }
+   //}
+   #endregion
+   #region Using types
 
-   static class MyExtensions
+   class Program
    {
-      public static decimal Discount(this Product product)
-      {
-         return product.Price * .9M;
-      }
-   }
-   class Product
-   {
-      public decimal Price { get; set; }
-
-      public virtual int MyVistualMethod()
-      {
-         return 100;
-      }
-   }
-   class Program : Product
-   {
-      class MyClass<T> where T : class, new()
-      {
-         public MyClass()
-         {
-            MyProperty = new T();
-         }
-
-         public T MyProperty { get; set; }
-
-      }
-
-      public decimal CalculateDiscount(Product p)
-      {
-         return p.Discount();
-      }
-
-      public override int MyVistualMethod()
-      {
-         return base.MyVistualMethod() * 10;
-      }
-
       static void Main(string[] args)
       {
-         var prog = new Program();
-         var prod = new Product() { Price=100 };
-         Console.WriteLine($"calculate result: {prog.CalculateDiscount(prod)}");
-         Console.WriteLine($"override methd result: {prog.MyVistualMethod()}");
-    
-         Console.WriteLine($"stop");
 
+         var tt = string.Concat("foo",34,true);
+         var gg = new Object();
+
+         gg = "asd";
+
+         //boxing
+         int i = 123;
+         object boxing = i;
+         //unboxing
+         int unboxing = (int)boxing;
+         Console.WriteLine($"tt: {tt}");
+         Console.WriteLine($"boxing: {boxing}");
+         Console.WriteLine($"unboxing: {unboxing}");
+
+         var mon = new Money(1234.55M);
+         mon.GetType();
+         Console.WriteLine($"1234.55: {mon.Amount.GetType()}");
+         int ggg = (int)mon;
+         decimal de = mon;
+
+         var strOver = StrOver.ToString("1");
+         Console.WriteLine($"strOver: {strOver}");
+
+         Console.WriteLine($"stop");
       }
    }
-   #endregion
 
+   public static class StrOver
+   {
+      public static string ToString(this string s)
+      {
+         return s + "a";
+      }
+   }
+
+   class Money
+   {
+      public Money(decimal amount)
+      {
+         Amount = amount;
+      }
+      public decimal Amount { get; set; }
+
+      public static implicit operator decimal(Money money)
+      {
+         return money.Amount;
+      }
+
+      public static explicit operator int(Money money)
+      {
+         return (int)money.Amount;
+      }
+
+   }
+   #endregion
 }
