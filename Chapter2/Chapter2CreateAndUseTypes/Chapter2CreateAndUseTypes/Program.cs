@@ -1,13 +1,29 @@
-﻿using System;
+﻿using Microsoft.CSharp;
+using System;
+using System.CodeDom;
+using System.CodeDom.Compiler;
 using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Data.Entity;
 using System.Data.Entity.Core.Objects;
+using System.Diagnostics;
 using System.Dynamic;
+using System.IO;
 using System.Linq;
+using System.Linq.Expressions;
+using System.Reflection;
+using Xunit;
 
 namespace Chapter2CreateAndUseTypes
 {
+   public static class Print
+   {
+      public static void Dump(this object input)
+      {
+         Console.WriteLine(input);
+      }
+   }
    #region Construct types
    //
    //public struct Point
@@ -472,71 +488,473 @@ namespace Chapter2CreateAndUseTypes
    //
    #endregion
    #region 2.4 Class hierarchy
-   interface IAnimal
-   {
-      void Move();
-   }
-   class Dog : IAnimal
-   {
-      public void Move() { }
-      public void Bark() { }
-      public void MoveAnimal(IAnimal animal)
-      {
-         Console.WriteLine("animal się rusza");
-      }
-   }
+   //interface IAnimal
+   //{
+   //   void Move();
+   //}
+   //class Dog : IAnimal
+   //{
+   //   public void Move() { }
+   //   public void Bark() { }
+   //   public void MoveAnimal(IAnimal animal)
+   //   {
+   //      Console.WriteLine("animal się rusza");
+   //   }
+   //}
+   //
+   //interface IExample
+   //{
+   //   string GetResult();
+   //   public int Value { get; }
+   //   event EventHandler ResultRestricted;
+   //   int this[string index] { get; set; }
+   //}
+   //
+   //class ExampleImplementation : IExample
+   //{
+   //   public ExampleImplementation() { }
+   //   public ExampleImplementation(int value)
+   //   {
+   //      Value = value;
+   //   }
+   //
+   //   public int this[string index] { get => 9; set => _ = 3; }
+   //   public ExampleImplementation this[int index] { get => new ExampleImplementation(); set => _ = 3; }
+   //
+   //   public int Value { get => 7; set => _ = 3; }
+   //
+   //   public event EventHandler ResultRestricted;
+   //
+   //   public string GetResult()
+   //   {
+   //      Console.WriteLine($" GetResult Value: {Value}");
+   //      return Value.ToString();
+   //   }
+   //}
+   //class Program
+   //{
+   //   static void Main(string[] args)
+   //   {
+   //      ExampleImplementation exampleImplementation = new ExampleImplementation();
+   //      exampleImplementation.GetResult();
+   //      var dd = exampleImplementation["1"];
+   //      var dd2 = exampleImplementation[4];
+   //
+   //      Console.WriteLine($" dd: {dd}");
+   //      Console.WriteLine($" dd2: {dd2}");
+   //      Console.WriteLine($" exampleImplementation.Value: {exampleImplementation.Value}");
+   //
+   //      IAnimal animal = new Dog();
+   //      Dog animal2 = new Dog();
+   //      Dog gg = (Dog)animal;
+   //      gg.Bark();
+   //      gg.MoveAnimal(animal);
+   //
+   //      Console.WriteLine($"end");
+   //   }
+   //}
+   //
+   #endregion
+   #region Inherit from class
+   //interface IEntity
+   //{
+   //   public int Id { get; set; }
+   //}
 
-   interface IExample
-   {
-      string GetResult();
-      public int Value { get; }
-      event EventHandler ResultRestricted;
-      int this[string index] { get; set; }
-   }
+   //class Repository<T> where T : IEntity
+   //{
+   //   protected IEnumerable<T> _elements;
 
-   class ExampleImplementation : IExample
-   {
-      public ExampleImplementation() {}
-      public ExampleImplementation(int value)
-      {
-         Value = value;
-      }
+   //   public Repository(IEnumerable<T> elements)
+   //   {
+   //      _elements = elements;
+   //   }
 
-      public int this[string index] { get => 9; set => _ = 3; }
-      public ExampleImplementation this[int index] { get => new ExampleImplementation(); set => _ = 3; }
+   //   public T FinfById(int id)
+   //   {
+   //      return _elements.SingleOrDefault(x => x.Id == id);
+   //   }
+   //}
 
-      public int Value { get => 7; set => _ = 3; }
+   //public class Order : IEntity
+   //{
+   //   public int Id { get => 2; set => _ = 2; }
+   //   // any other implementation
+   //   public int Amount { get; set; }
+   //   public string Name { get; set; }
 
-      public event EventHandler ResultRestricted;
+   //}
 
-      public string GetResult()
-      {
-         Console.WriteLine($" GetResult Value: {Value}");
-         return Value.ToString();
-      }
-   }
+   //class OrderRepo : Repository<Order>
+   //{
+   //   public OrderRepo(IEnumerable<Order> elements) : base(elements)
+   //   {
+   //   }
+
+   //   public void PrintNames()
+   //   {
+   //      Console.WriteLine($"nale of first element: {_elements.FirstOrDefault().Name}");
+   //   }
+
+   //}
+
+   //class Program
+   //{
+   //   static void Main(string[] args)
+   //   {
+
+   //      var myclaslist = new List<Order>() { new Order() { Id = 2, Amount= 2345, Name = "aaName" } };
+   //      Repository<Order> repository = new Repository<Order>(myclaslist);
+
+   //      OrderRepo orderRepo = new OrderRepo(myclaslist);
+   //      var tt = orderRepo.FinfById(2);
+
+
+   //      Console.WriteLine($"result: {tt.Id},  {tt.Amount}, {tt.Name}");
+   //      orderRepo.PrintNames();
+   //      Console.WriteLine($"stop");
+
+   //   }
+
+   //}
+   #endregion
+   #region Canging behavior
+   //public class BaseClass
+   //{
+   //   public virtual void Execute()
+   //   {
+   //      Console.WriteLine($"Base class execute");
+   //   }
+   //
+   //   public void ExecuteNew()
+   //   {
+   //      Console.WriteLine($"Base class executeNew");
+   //   }
+   //}
+   //
+   //public abstract class AbstractClass
+   //{
+   //   public virtual void Listening()
+   //   {
+   //      Console.WriteLine("music");
+   //   }
+   //   public int MyProperty { get; set; }
+   //}
+   //
+   //class RealClass : AbstractClass
+   //{
+   //  //public override void Listening()
+   //  //{
+   //  //   base.Listening();
+   //  //}
+   //}
+   //
+   //
+   //class Derived : BaseClass
+   //{
+   //   public override void Execute()
+   //   {
+   //      //Log("Before executing");
+   //      //base.Execute();
+   //      //Log("After executing");
+   //      //base.Execute();
+   //      Log("override execute");
+   //      Console.WriteLine($"Override class execute");
+   //   }
+   //
+   //   //NIE ZALECANE JEST UŻYCIE NEW PRZY DZIEDZICZENIU!!!
+   //   public new void ExecuteNew()
+   //   {
+   //      Console.WriteLine($"Override class ExecuteNew");
+   //   }
+   //
+   //   private void Log(string message) 
+   //   {
+   //      Console.WriteLine($"log: {message}");
+   //   }
+   //}
+   //class Program
+   //{
+   //   static void Main(string[] args)
+   //   {
+   //      BaseClass baseClass = new BaseClass();
+   //      baseClass.Execute();
+   //      baseClass.ExecuteNew(); 
+   //
+   //      Derived derived = new Derived();
+   //      derived.Execute();
+   //      derived.ExecuteNew();
+   //
+   //      RealClass realClass = new RealClass();
+   //
+   //   }
+   //}
+   #endregion
+   #region Implementing standard .NET Framework interfaces
+   //class Order : IComparable
+   //{
+   //   public DateTime Created { get; set; }
+   //   public int CompareTo(object obj)
+   //   {
+   //      if (obj == null)
+   //      {
+   //         return 1;
+   //      }
+   //      Order o = obj as Order;
+   //      if (o == null)
+   //      {
+   //         throw new ArgumentException("object is null");
+   //      }
+   //      return this.Created.CompareTo(o.Created);
+   //   }
+   //}
+   //
+   //class Person
+   //{
+   //   public Person(string firstName, string lastName)
+   //   {
+   //      FirstName = firstName;
+   //      LastName = lastName;
+   //   }
+   //   public string FirstName { get; set; }
+   //   public string LastName { get; set; }
+   //   public override string ToString()
+   //   {
+   //      return FirstName + " " + LastName;
+   //   }
+   //}
+   //
+   //class People : IEnumerable<Person>
+   //{
+   //   Person[] people;
+   //   List<Person> peopleList;
+   //   public People(Person[] people)
+   //   {
+   //      this.people = people;
+   //   }
+   //   public People()
+   //   {
+   //      this.people = FillPeople();
+   //   }
+   //
+   //   public IEnumerator<Person> GetEnumerator()
+   //   {
+   //      for (int index = 0; index < people.Length; index++)
+   //      {
+   //         //słowo kluczowe yield pozwala na wyjście z iteracji kiedy wajakiś warunek jest słeniony
+   //         //  w tym przypadku wychodzi z for kiedy nie ma więcej elementów
+   //         yield return people[index];
+   //      }
+   //   }
+   //   IEnumerator IEnumerable.GetEnumerator()
+   //   {
+   //      return GetEnumerator();
+   //   }
+   //
+   //   public Person[] FillPeople()
+   //   {
+   //      return new Person[] {
+   //         new Person( "aa","bb" ),
+   //         new Person( "cc","ll" ),
+   //         new Person( "dd","mm" ),
+   //         new Person( "ff","nn" ),
+   //         new Person( "gg","vv" ),
+   //         new Person( "hh","zz" ),
+   //      };
+   //   }
+   //}
+   //class Program
+   //{
+   //   static IEnumerable<int> RunningTotal()
+   //   {
+   //      int runningTotal = 0;
+   //      foreach (var item in MyList)
+   //      {
+   //         runningTotal += item;
+   //         yield return runningTotal;
+   //      }
+   //      yield return runningTotal;
+   //   }
+   //   static void FillMyList()
+   //   {
+   //      MyList.Add(1);
+   //      MyList.Add(2);
+   //      MyList.Add(3);
+   //      MyList.Add(4);
+   //      MyList.Add(5);
+   //   }
+   //   static List<int> MyList = new List<int>();
+   //   static void Main(string[] args)
+   //   {
+   //      List<Order> orderList = FillOrderList();
+   //
+   //      //bez implementacji interfejsu IComparable nie można sortować za pomoca Sort()
+   //      orderList.Sort();
+   //
+   //      foreach (var item in orderList)
+   //      {
+   //         Console.WriteLine($"{item.Created}");
+   //      }
+   //
+   //      List<int> numbers = new List<int> { 1, 345, 3, 876, 7, 9 };
+   //      using (var enumerator = numbers.GetEnumerator())
+   //      {
+   //         while (enumerator.MoveNext())
+   //         Console.WriteLine(enumerator.Current);
+   //      }
+   //
+   //      People people = new People();
+   //      //gdybym nie użył IEnumaerable to metoda GetEnumerator pozwalająca na użycie foreacha na 
+   //      //  tablicy people była by niedostępna
+   //      foreach (var item in people)
+   //      {
+   //         Console.WriteLine($"{item.FirstName}, {item.LastName}");
+   //      }
+   //
+   //      Console.WriteLine($"///////////////////");
+   //
+   //      FillMyList();
+   //      foreach (var item in RunningTotal())
+   //      {
+   //         Console.WriteLine(item);
+   //      }
+   //      Console.WriteLine($"end");
+   //   }
+   //
+   //   private static List<Order> FillOrderList()
+   //   {
+   //      return new List<Order>() {
+   //         new Order() { Created = new DateTime(2000,05,06) },
+   //         new Order() { Created = new DateTime(2000,09,06) },
+   //         new Order() { Created = new DateTime(2000,01,06) },
+   //         new Order() { Created = new DateTime(2000,02,06) },
+   //         new Order() { Created = new DateTime(2000,06,06) },
+   //         new Order() { Created = new DateTime(2000,02,06) },
+   //      };
+   //   }
+   //}
+   #endregion
+   #region Objective 2.5: Find, execute, and create types at runtime by using reflection
+   //[Serializable]
+   //class Person
+   //{
+   //   public string FirstName { get; set; }
+   //   public string LastName { get; set; }
+   //}
+
+   //[AttributeUsage(AttributeTargets.Method, AllowMultiple = false)]
+   //public class UnitTest2Attribute : CategoryAttribute
+   //{
+   //   public string Description { get; set; }
+
+   //   public UnitTest2Attribute(string description) : base("UnitTest2")
+   //   {
+   //      Description = description;
+   //   }
+   //}
+
+   //class Program
+   //{
+   //   static void Main(string[] args)
+   //   {
+   //      Console.WriteLine($"end");
+   //   }
+
+   //   [Fact]
+   //   [UnitTest2("desctiptionPassedToAtributeContructor")]
+   //   public void MySecondUnitTest()
+   //   { }
+   //}
+   #endregion
+   #region reflections
+   //class Program
+   //{
+   //   public int MyProperty { get; set; }
+   //   private int Foo { get; set; }
+   //   private int MyProperty2 { get; set; }
+   //   static void GetNonPublicFields(object obj)
+   //   {
+   //      var o = obj.GetType().GetFields(BindingFlags.Instance | BindingFlags.NonPublic);
+   //      foreach (var item in o)
+   //      {
+   //         item.GetValue(obj).Dump();
+   //         item.Name.Dump();
+   //      }
+   //   }
+   //
+   //   static void Main()
+   //   {
+   //
+   //      Program program = new Program();
+   //      int i = 234;
+   //      i.GetType().Dump();
+   //      GetNonPublicFields(program);
+   //
+   //
+   //      CodeCompileUnit compileUnit = new CodeCompileUnit();
+   //      CodeNamespace myNamespace = new CodeNamespace("MyNamespace");
+   //      myNamespace.Imports.Add(new CodeNamespaceImport("System"));
+   //      CodeTypeDeclaration myClass = new CodeTypeDeclaration("MyClass");
+   //      CodeEntryPointMethod start = new CodeEntryPointMethod();
+   //      CodeMethodInvokeExpression cs1 = new CodeMethodInvokeExpression(
+   //      new CodeTypeReferenceExpression("Console"),
+   //      "WriteLine", new CodePrimitiveExpression("Hello World!"));
+   //      compileUnit.Namespaces.Add(myNamespace);
+   //      myNamespace.Types.Add(myClass);
+   //      myClass.Members.Add(start);
+   //      start.Statements.Add(cs1);
+   //
+   //
+   //      CSharpCodeProvider provider = new CSharpCodeProvider();
+   //      using (StreamWriter sw = new StreamWriter("HelloWorld.cs", false))
+   //      {
+   //         IndentedTextWriter tw = new IndentedTextWriter(sw, " ");
+   //         provider.GenerateCodeFromCompileUnit(compileUnit, tw,
+   //         new CodeGeneratorOptions());
+   //         tw.Close();
+   //      }
+   //
+   //
+   //      BlockExpression blockExpr = Expression.Block(
+   //      Expression.Call(
+   //      null,
+   //      typeof(Console).GetMethod("Write", new Type[] { typeof(String) }),
+   //      Expression.Constant("Hello")
+   //      ),
+   //      Expression.Call(
+   //      null,
+   //      typeof(Console).GetMethod("WriteLine", new Type[] { typeof(String) }),
+   //      Expression.Constant("World!") )
+   //      );
+   //      Expression.Lambda<Action>(blockExpr).Compile()();
+   //
+   //
+   //
+   //      Console.WriteLine($"end");
+   //   }
+   //}
+   #endregion
+   #region Manage memory
    class Program
    {
-      static void Main(string[] args)
+      static void Main()
       {
-         ExampleImplementation exampleImplementation = new ExampleImplementation();
-         exampleImplementation.GetResult();
-         var dd = exampleImplementation["1"];
-         var dd2 = exampleImplementation[4];
-   
-         Console.WriteLine($" dd: {dd}");
-         Console.WriteLine($" dd2: {dd2}");
-         Console.WriteLine($" exampleImplementation.Value: {exampleImplementation.Value}");
+       
+         // obiekty dziedziczące po IDisposable powinny być opakowane we wrapper USING
+         using (StreamWriter streamWriter = File.CreateText("temp.dat"))
+         {
+            streamWriter.Write("some text");
+         }
+         File.Delete("temp.dat");
 
-         IAnimal animal = new Dog();
-         Dog animal2 = new Dog();
-         Dog gg = (Dog)animal;
-         gg.Bark();
-         gg.MoveAnimal(animal);
-         
+
+         "end".Dump();
+         123.Dump();
+         new DateTime().Dump();
          Console.WriteLine($"end");
       }
    }
-   
+
    #endregion
+
 }
