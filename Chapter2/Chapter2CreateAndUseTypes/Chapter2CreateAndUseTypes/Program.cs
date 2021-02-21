@@ -9,10 +9,14 @@ using System.Data.Entity;
 using System.Data.Entity.Core.Objects;
 using System.Diagnostics;
 using System.Dynamic;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
+using System.Text;
+using System.Text.RegularExpressions;
+using System.Xml;
 using Xunit;
 
 namespace Chapter2CreateAndUseTypes
@@ -884,12 +888,10 @@ namespace Chapter2CreateAndUseTypes
    //
    //   static void Main()
    //   {
-   //
    //      Program program = new Program();
    //      int i = 234;
    //      i.GetType().Dump();
    //      GetNonPublicFields(program);
-   //
    //
    //      CodeCompileUnit compileUnit = new CodeCompileUnit();
    //      CodeNamespace myNamespace = new CodeNamespace("MyNamespace");
@@ -904,7 +906,6 @@ namespace Chapter2CreateAndUseTypes
    //      myClass.Members.Add(start);
    //      start.Statements.Add(cs1);
    //
-   //
    //      CSharpCodeProvider provider = new CSharpCodeProvider();
    //      using (StreamWriter sw = new StreamWriter("HelloWorld.cs", false))
    //      {
@@ -913,7 +914,6 @@ namespace Chapter2CreateAndUseTypes
    //         new CodeGeneratorOptions());
    //         tw.Close();
    //      }
-   //
    //
    //      BlockExpression blockExpr = Expression.Block(
    //      Expression.Call(
@@ -928,30 +928,125 @@ namespace Chapter2CreateAndUseTypes
    //      );
    //      Expression.Lambda<Action>(blockExpr).Compile()();
    //
-   //
-   //
    //      Console.WriteLine($"end");
    //   }
    //}
    #endregion
    #region Manage memory
+   //class Program
+   //{
+   //   static void Main()
+   //   {
+   //      // obiekty dziedziczące po IDisposable powinny być opakowane we wrapper USING
+   //      using (StreamWriter streamWriter = File.CreateText("temp.dat"))
+   //      {
+   //         streamWriter.Write("some text");
+   //      }
+   //      File.Delete("temp.dat");
+   //
+   //      "end".Dump();
+   //      123.Dump();
+   //      new DateTime().Dump();
+   //      Console.WriteLine($"end");
+   //   }
+   //}
+
+   #endregion
+
+   #region stringi
    class Program
    {
       static void Main()
       {
-       
-         // obiekty dziedziczące po IDisposable powinny być opakowane we wrapper USING
-         using (StreamWriter streamWriter = File.CreateText("temp.dat"))
+         StringBuilder sb = new StringBuilder(string.Empty);
+         for (int i = 0; i < 1000; i++)
          {
-            streamWriter.Write("some text");
+            sb.Append("x");
          }
-         File.Delete("temp.dat");
+         new String('c', 50).Dump();
+         sb.Dump();
+
+
+
+         var stringWriter = new StringWriter();
+         using (XmlWriter writer = XmlWriter.Create(stringWriter))
+         {
+            writer.WriteStartElement("book");
+            writer.WriteElementString("price", "19.95");
+            writer.WriteEndElement();
+            writer.Flush();
+         }
+         string xml = stringWriter.ToString();
+         xml.Dump();
+
+
+         var stringReader = new StringReader(xml);
+         using (XmlReader reader = XmlReader.Create(stringReader))
+         {
+            reader.ReadToFollowing("price");
+            decimal price = decimal.Parse(reader.ReadInnerXml(),
+            new CultureInfo("en-US")); // Make sure that you read the decimal part correctly
+         }
+         stringReader.Dump();
+
+         //////regex
+         string pattern = "(Mr\\.? | Mrs\\.? | Miss | Ms\\.? )";
+         string[] names = { "Mr. Henry Hunt", "Ms. Sara Samuels", "Abraham Adams", "Ms. Nicole Norris" };
+         foreach (string name in names)
+            Console.WriteLine(Regex.Replace(name, pattern, string.Empty));
+
+         foreach (string word in "My sentence separated by spaces".Split(' ')) { }
+
+         string ff = "asd asdasd 098098 asdasd 0a9s8d asd -9";
+         foreach (string word in ff.Split('0'))
+         {
+            word.Dump();
+         }
+
+         new Person("Tom", "Jerry").Dump();
 
 
          "end".Dump();
-         123.Dump();
-         new DateTime().Dump();
-         Console.WriteLine($"end");
+      }
+   }
+   class Person : IFormattable
+   {
+      public Person(string name, string surname)
+      {
+         Name = name;
+         Surname = surname;
+      }
+
+      public string Name { get; set; }
+      public string Surname { get; set; }
+
+      public override string ToString()
+      {
+         return Name + ' ' + Surname;
+      }
+
+      public string ToString(string format)
+      {
+         if (string.IsNullOrWhiteSpace(format) || format == "G")
+         {
+            format = "FL";
+         }
+
+         switch (format)
+         {
+            case "FL":
+               return Name + Surname;
+            case "LF":
+               return "sdfzsdf";
+            default:
+               throw new FormatException(String.Format(
+    "The '{0}' format string is not supported.", format));
+         }
+      }
+
+      public string ToString(string format, IFormatProvider formatProvider)
+      {
+         throw new NotImplementedException();
       }
    }
 
