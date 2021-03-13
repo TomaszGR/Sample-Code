@@ -5,3 +5,10 @@ C:\Users\Rob\Documents\GitHub\Sample-Code\LISTING 3-20 Signing data\LISTING 3-
 C:\Users\Rob\Documents\GitHub\Sample-Code\LISTING 3-20 Signing data\LISTING 3-20 Signing data\obj\Debug\LISTING 3-20 Signing data.csproj.CoreCompileInputs.cache
 C:\Users\Rob\Documents\GitHub\Sample-Code\LISTING 3-20 Signing data\LISTING 3-20 Signing data\obj\Debug\LISTING 3-20 Signing data.exe
 C:\Users\Rob\Documents\GitHub\Sample-Code\LISTING 3-20 Signing data\LISTING 3-20 Signing data\obj\Debug\LISTING 3-20 Signing data.pdb
+c:\Users\tomasz.grzadziel\repos\Sample-Code\LISTING 3-20 Signing data\LISTING 3-20 Signing data\bin\Debug\LISTING 3-20 Signing data.exe.config
+c:\Users\tomasz.grzadziel\repos\Sample-Code\LISTING 3-20 Signing data\LISTING 3-20 Signing data\bin\Debug\LISTING 3-20 Signing data.exe
+c:\Users\tomasz.grzadziel\repos\Sample-Code\LISTING 3-20 Signing data\LISTING 3-20 Signing data\bin\Debug\LISTING 3-20 Signing data.pdb
+c:\Users\tomasz.grzadziel\repos\Sample-Code\LISTING 3-20 Signing data\LISTING 3-20 Signing data\obj\Debug\LISTING 3-20 Signing data.csprojAssemblyReference.cache
+c:\Users\tomasz.grzadziel\repos\Sample-Code\LISTING 3-20 Signing data\LISTING 3-20 Signing data\obj\Debug\LISTING 3-20 Signing data.csproj.CoreCompileInputs.cache
+c:\Users\tomasz.grzadziel\repos\Sample-Code\LISTING 3-20 Signing data\LISTING 3-20 Signing data\obj\Debug\LISTING 3-20 Signing data.exe
+c:\Users\tomasz.grzadziel\repos\Sample-Code\LISTING 3-20 Signing data\LISTING 3-20 Signing data\obj\Debug\LISTING 3-20 Signing data.pdb

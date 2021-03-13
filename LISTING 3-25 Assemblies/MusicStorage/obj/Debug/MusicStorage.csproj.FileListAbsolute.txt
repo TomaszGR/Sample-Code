@@ -4,3 +4,9 @@ C:\Users\Rob\Documents\GitHub\Sample-Code\LISTING 3-25 Assemblies\MusicStorage\o
 C:\Users\Rob\Documents\GitHub\Sample-Code\LISTING 3-25 Assemblies\MusicStorage\obj\Debug\MusicStorage.csproj.CoreCompileInputs.cache
 C:\Users\Rob\Documents\GitHub\Sample-Code\LISTING 3-25 Assemblies\MusicStorage\obj\Debug\MusicStorage.dll
 C:\Users\Rob\Documents\GitHub\Sample-Code\LISTING 3-25 Assemblies\MusicStorage\obj\Debug\MusicStorage.pdb
+c:\Users\tomasz.grzadziel\repos\Sample-Code\LISTING 3-25 Assemblies\MusicStorage\bin\Debug\MusicStorage.dll
+c:\Users\tomasz.grzadziel\repos\Sample-Code\LISTING 3-25 Assemblies\MusicStorage\bin\Debug\MusicStorage.pdb
+c:\Users\tomasz.grzadziel\repos\Sample-Code\LISTING 3-25 Assemblies\MusicStorage\obj\Debug\MusicStorage.csprojAssemblyReference.cache
+c:\Users\tomasz.grzadziel\repos\Sample-Code\LISTING 3-25 Assemblies\MusicStorage\obj\Debug\MusicStorage.csproj.CoreCompileInputs.cache
+c:\Users\tomasz.grzadziel\repos\Sample-Code\LISTING 3-25 Assemblies\MusicStorage\obj\Debug\MusicStorage.dll
+c:\Users\tomasz.grzadziel\repos\Sample-Code\LISTING 3-25 Assemblies\MusicStorage\obj\Debug\MusicStorage.pdb

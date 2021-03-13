@@ -1,0 +1,7 @@
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter3\DebugApplication\TraceDebugApp\TraceDebugApp\bin\Debug\TraceDebugApp.exe.config
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter3\DebugApplication\TraceDebugApp\TraceDebugApp\bin\Debug\TraceDebugApp.exe
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter3\DebugApplication\TraceDebugApp\TraceDebugApp\bin\Debug\TraceDebugApp.pdb
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter3\DebugApplication\TraceDebugApp\TraceDebugApp\obj\Debug\TraceDebugApp.csproj.CoreCompileInputs.cache
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter3\DebugApplication\TraceDebugApp\TraceDebugApp\obj\Debug\TraceDebugApp.exe
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter3\DebugApplication\TraceDebugApp\TraceDebugApp\obj\Debug\TraceDebugApp.pdb
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter3\DebugApplication\TraceDebugApp\TraceDebugApp\obj\Debug\TraceDebugApp.csprojAssemblyReference.cache

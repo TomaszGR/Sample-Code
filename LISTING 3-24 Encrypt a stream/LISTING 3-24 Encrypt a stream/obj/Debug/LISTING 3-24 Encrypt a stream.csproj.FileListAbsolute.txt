@@ -5,3 +5,10 @@ C:\Users\Rob\Documents\GitHub\Sample-Code\LISTING 3-24 Encrypt a stream\LISTIN
 C:\Users\Rob\Documents\GitHub\Sample-Code\LISTING 3-24 Encrypt a stream\LISTING 3-24 Encrypt a stream\obj\Debug\LISTING 3-24 Encrypt a stream.exe
 C:\Users\Rob\Documents\GitHub\Sample-Code\LISTING 3-24 Encrypt a stream\LISTING 3-24 Encrypt a stream\obj\Debug\LISTING 3-24 Encrypt a stream.pdb
 C:\Users\Rob\Documents\GitHub\Sample-Code\LISTING 3-24 Encrypt a stream\LISTING 3-24 Encrypt a stream\obj\Debug\LISTING 3-24 Encrypt a stream.csprojResolveAssemblyReference.cache
+c:\Users\tomasz.grzadziel\repos\Sample-Code\LISTING 3-24 Encrypt a stream\LISTING 3-24 Encrypt a stream\bin\Debug\LISTING 3-24 Encrypt a stream.exe.config
+c:\Users\tomasz.grzadziel\repos\Sample-Code\LISTING 3-24 Encrypt a stream\LISTING 3-24 Encrypt a stream\bin\Debug\LISTING 3-24 Encrypt a stream.exe
+c:\Users\tomasz.grzadziel\repos\Sample-Code\LISTING 3-24 Encrypt a stream\LISTING 3-24 Encrypt a stream\bin\Debug\LISTING 3-24 Encrypt a stream.pdb
+c:\Users\tomasz.grzadziel\repos\Sample-Code\LISTING 3-24 Encrypt a stream\LISTING 3-24 Encrypt a stream\obj\Debug\LISTING 3-24 Encrypt a stream.csprojAssemblyReference.cache
+c:\Users\tomasz.grzadziel\repos\Sample-Code\LISTING 3-24 Encrypt a stream\LISTING 3-24 Encrypt a stream\obj\Debug\LISTING 3-24 Encrypt a stream.csproj.CoreCompileInputs.cache
+c:\Users\tomasz.grzadziel\repos\Sample-Code\LISTING 3-24 Encrypt a stream\LISTING 3-24 Encrypt a stream\obj\Debug\LISTING 3-24 Encrypt a stream.exe
+c:\Users\tomasz.grzadziel\repos\Sample-Code\LISTING 3-24 Encrypt a stream\LISTING 3-24 Encrypt a stream\obj\Debug\LISTING 3-24 Encrypt a stream.pdb

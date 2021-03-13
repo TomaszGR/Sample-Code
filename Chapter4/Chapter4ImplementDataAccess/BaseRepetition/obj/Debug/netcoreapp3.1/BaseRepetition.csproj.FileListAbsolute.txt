@@ -1,0 +1,13 @@
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\BaseRepetition\bin\Debug\netcoreapp3.1\BaseRepetition.exe
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\BaseRepetition\bin\Debug\netcoreapp3.1\BaseRepetition.deps.json
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\BaseRepetition\bin\Debug\netcoreapp3.1\BaseRepetition.runtimeconfig.json
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\BaseRepetition\bin\Debug\netcoreapp3.1\BaseRepetition.runtimeconfig.dev.json
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\BaseRepetition\bin\Debug\netcoreapp3.1\BaseRepetition.dll
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\BaseRepetition\bin\Debug\netcoreapp3.1\BaseRepetition.pdb
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\BaseRepetition\obj\Debug\netcoreapp3.1\BaseRepetition.csprojAssemblyReference.cache
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\BaseRepetition\obj\Debug\netcoreapp3.1\BaseRepetition.AssemblyInfoInputs.cache
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\BaseRepetition\obj\Debug\netcoreapp3.1\BaseRepetition.AssemblyInfo.cs
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\BaseRepetition\obj\Debug\netcoreapp3.1\BaseRepetition.csproj.CoreCompileInputs.cache
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\BaseRepetition\obj\Debug\netcoreapp3.1\BaseRepetition.dll
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\BaseRepetition\obj\Debug\netcoreapp3.1\BaseRepetition.pdb
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\BaseRepetition\obj\Debug\netcoreapp3.1\BaseRepetition.genruntimeconfig.cache

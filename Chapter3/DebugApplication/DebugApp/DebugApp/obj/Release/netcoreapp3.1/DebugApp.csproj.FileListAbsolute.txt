@@ -1,0 +1,13 @@
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter3\DebugApplication\DebugApp\DebugApp\bin\Release\netcoreapp3.1\DebugApp.exe
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter3\DebugApplication\DebugApp\DebugApp\bin\Release\netcoreapp3.1\DebugApp.deps.json
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter3\DebugApplication\DebugApp\DebugApp\bin\Release\netcoreapp3.1\DebugApp.runtimeconfig.json
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter3\DebugApplication\DebugApp\DebugApp\bin\Release\netcoreapp3.1\DebugApp.runtimeconfig.dev.json
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter3\DebugApplication\DebugApp\DebugApp\bin\Release\netcoreapp3.1\DebugApp.dll
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter3\DebugApplication\DebugApp\DebugApp\bin\Release\netcoreapp3.1\DebugApp.pdb
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter3\DebugApplication\DebugApp\DebugApp\obj\Release\netcoreapp3.1\DebugApp.AssemblyInfoInputs.cache
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter3\DebugApplication\DebugApp\DebugApp\obj\Release\netcoreapp3.1\DebugApp.AssemblyInfo.cs
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter3\DebugApplication\DebugApp\DebugApp\obj\Release\netcoreapp3.1\DebugApp.csproj.CoreCompileInputs.cache
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter3\DebugApplication\DebugApp\DebugApp\obj\Release\netcoreapp3.1\DebugApp.dll
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter3\DebugApplication\DebugApp\DebugApp\obj\Release\netcoreapp3.1\DebugApp.pdb
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter3\DebugApplication\DebugApp\DebugApp\obj\Release\netcoreapp3.1\DebugApp.genruntimeconfig.cache
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter3\DebugApplication\DebugApp\DebugApp\obj\Release\netcoreapp3.1\DebugApp.csprojAssemblyReference.cache

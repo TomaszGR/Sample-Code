@@ -7,3 +7,13 @@ C:\Users\Rob\Documents\GitHub\Sample-Code\LISTING 3-25 Assemblies\LISTING 3-25 A
 C:\Users\Rob\Documents\GitHub\Sample-Code\LISTING 3-25 Assemblies\LISTING 3-25 Assemblies\obj\Debug\LISTING 3-25 Assemblies.pdb
 C:\Users\Rob\Documents\GitHub\Sample-Code\LISTING 3-25 Assemblies\LISTING 3-25 Assemblies\bin\Debug\MusicStorage.dll
 C:\Users\Rob\Documents\GitHub\Sample-Code\LISTING 3-25 Assemblies\LISTING 3-25 Assemblies\bin\Debug\MusicStorage.pdb
+c:\Users\tomasz.grzadziel\repos\Sample-Code\LISTING 3-25 Assemblies\LISTING 3-25 Assemblies\bin\Debug\LISTING 3-25 Assemblies.exe.config
+c:\Users\tomasz.grzadziel\repos\Sample-Code\LISTING 3-25 Assemblies\LISTING 3-25 Assemblies\bin\Debug\LISTING 3-25 Assemblies.exe
+c:\Users\tomasz.grzadziel\repos\Sample-Code\LISTING 3-25 Assemblies\LISTING 3-25 Assemblies\bin\Debug\LISTING 3-25 Assemblies.pdb
+c:\Users\tomasz.grzadziel\repos\Sample-Code\LISTING 3-25 Assemblies\LISTING 3-25 Assemblies\bin\Debug\MusicStorage.dll
+c:\Users\tomasz.grzadziel\repos\Sample-Code\LISTING 3-25 Assemblies\LISTING 3-25 Assemblies\bin\Debug\MusicStorage.pdb
+c:\Users\tomasz.grzadziel\repos\Sample-Code\LISTING 3-25 Assemblies\LISTING 3-25 Assemblies\obj\Debug\LISTING 3-25 Assemblies.csprojAssemblyReference.cache
+c:\Users\tomasz.grzadziel\repos\Sample-Code\LISTING 3-25 Assemblies\LISTING 3-25 Assemblies\obj\Debug\LISTING 3-25 Assemblies.csproj.CoreCompileInputs.cache
+c:\Users\tomasz.grzadziel\repos\Sample-Code\LISTING 3-25 Assemblies\LISTING 3-25 Assemblies\obj\Debug\LISTING 3-25 Assemblies.csproj.CopyComplete
+c:\Users\tomasz.grzadziel\repos\Sample-Code\LISTING 3-25 Assemblies\LISTING 3-25 Assemblies\obj\Debug\LISTING 3-25 Assemblies.exe
+c:\Users\tomasz.grzadziel\repos\Sample-Code\LISTING 3-25 Assemblies\LISTING 3-25 Assemblies\obj\Debug\LISTING 3-25 Assemblies.pdb

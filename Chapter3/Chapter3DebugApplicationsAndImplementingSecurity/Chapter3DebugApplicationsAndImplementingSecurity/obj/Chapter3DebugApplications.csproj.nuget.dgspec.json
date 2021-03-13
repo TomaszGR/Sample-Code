@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tomasz.grzadziel\\repos\\learning\\Sample-Code\\Chapter3\\Chapter3DebugApplicationsAndImplementingSecurity\\Chapter3DebugApplicationsAndImplementingSecurity\\Chapter3DebugApplications.csproj": {}
+    "C:\\Users\\tomasz.grzadziel\\repos\\Sample-Code\\Chapter3\\Chapter3DebugApplicationsAndImplementingSecurity\\Chapter3DebugApplicationsAndImplementingSecurity\\Chapter3DebugApplications.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tomasz.grzadziel\\repos\\learning\\Sample-Code\\Chapter3\\Chapter3DebugApplicationsAndImplementingSecurity\\Chapter3DebugApplicationsAndImplementingSecurity\\Chapter3DebugApplications.csproj": {
+    "C:\\Users\\tomasz.grzadziel\\repos\\Sample-Code\\Chapter3\\Chapter3DebugApplicationsAndImplementingSecurity\\Chapter3DebugApplicationsAndImplementingSecurity\\Chapter3DebugApplications.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tomasz.grzadziel\\repos\\learning\\Sample-Code\\Chapter3\\Chapter3DebugApplicationsAndImplementingSecurity\\Chapter3DebugApplicationsAndImplementingSecurity\\Chapter3DebugApplications.csproj",
+        "projectUniqueName": "C:\\Users\\tomasz.grzadziel\\repos\\Sample-Code\\Chapter3\\Chapter3DebugApplicationsAndImplementingSecurity\\Chapter3DebugApplicationsAndImplementingSecurity\\Chapter3DebugApplications.csproj",
         "projectName": "Chapter3DebugApplications",
-        "projectPath": "C:\\Users\\tomasz.grzadziel\\repos\\learning\\Sample-Code\\Chapter3\\Chapter3DebugApplicationsAndImplementingSecurity\\Chapter3DebugApplicationsAndImplementingSecurity\\Chapter3DebugApplications.csproj",
+        "projectPath": "C:\\Users\\tomasz.grzadziel\\repos\\Sample-Code\\Chapter3\\Chapter3DebugApplicationsAndImplementingSecurity\\Chapter3DebugApplicationsAndImplementingSecurity\\Chapter3DebugApplications.csproj",
         "packagesPath": "C:\\Users\\tomasz.grzadziel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tomasz.grzadziel\\repos\\learning\\Sample-Code\\Chapter3\\Chapter3DebugApplicationsAndImplementingSecurity\\Chapter3DebugApplicationsAndImplementingSecurity\\obj\\",
+        "outputPath": "C:\\Users\\tomasz.grzadziel\\repos\\Sample-Code\\Chapter3\\Chapter3DebugApplicationsAndImplementingSecurity\\Chapter3DebugApplicationsAndImplementingSecurity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

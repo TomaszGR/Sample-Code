@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZoD6GlVc4IWOwaJ1hyc1GiczTj/yl3Oc5c8IWoYLNaprbBAzFCvS+hlMlbGAp+oHRd8nDB9moP2kHX8+/xVmhg==",
+  "dgSpecHash": "FqM8esW5mtSGdhhf5jyCq6HFA+NgViFuIz1AeZhyb4dVsxy44GVS/uoX7MfRs7bjEcGwEZEAtPKcdCj4Vyxuhw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tomasz.grzadziel\\repos\\learning\\Sample-Code\\Chapter3\\Chapter3DebugApplicationsAndImplementingSecurity\\Chapter3DebugApplicationsAndImplementingSecurity\\Chapter3DebugApplications.csproj",
+  "projectFilePath": "C:\\Users\\tomasz.grzadziel\\repos\\Sample-Code\\Chapter3\\Chapter3DebugApplicationsAndImplementingSecurity\\Chapter3DebugApplicationsAndImplementingSecurity\\Chapter3DebugApplications.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tomasz.grzadziel\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.3\\microsoft.entityframeworkcore.5.0.3.nupkg.sha512",
     "C:\\Users\\tomasz.grzadziel\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.3\\microsoft.entityframeworkcore.abstractions.5.0.3.nupkg.sha512",

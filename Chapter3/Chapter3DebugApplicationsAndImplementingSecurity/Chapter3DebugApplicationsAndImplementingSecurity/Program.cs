@@ -11,6 +11,9 @@ using System.Xml.Schema;
 using System.Security.Cryptography;
 using System.IO;
 using System.Text;
+using System.Security.Cryptography.X509Certificates;
+using System.Security;
+using System.Runtime.InteropServices;
 
 namespace Chapter3DebugApplicationsAndImplementingSecurity
 {
@@ -198,128 +201,218 @@ namespace Chapter3DebugApplicationsAndImplementingSecurity
    //}
    #endregion
    #region Cryptography
-   class Set<T>
+   //class Set<T>
+   //{
+   //   private List<T>[] buckets = new List<T>[100];
+   //   public void Insert(T item)
+   //   {
+   //      int bucket = GetBucket(item.GetHashCode());
+   //   }
+   //
+   //   private int GetBucket(int hashcode)
+   //   {
+   //      unchecked
+   //      {
+   //         return (int)((uint)hashcode % (uint)buckets.Length);
+   //      }
+   //   }
+   //}
+   //
+   //class Program2
+   //{
+   //   public static void Main()
+   //   {
+   //      EncryptSomeText();
+   //      RSACryptoServiceProvider rsa = new RSACryptoServiceProvider();
+   //      string publicKeyXML = rsa.ToXmlString(false);
+   //      string privateKeyXML = rsa.ToXmlString(true);
+   //      Console.WriteLine(publicKeyXML);
+   //      "///////////////////////////////////////////////////////////".Dump();
+   //      Console.WriteLine(privateKeyXML);
+   //
+   //      UnicodeEncoding ByteConverter = new UnicodeEncoding();
+   //      byte[] dataToEncrypt = ByteConverter.GetBytes("My Secret Data!");
+   //      byte[] encryptedData;
+   //      using (RSACryptoServiceProvider RSA = new RSACryptoServiceProvider())
+   //      {
+   //         RSA.FromXmlString(publicKeyXML);
+   //         encryptedData = RSA.Encrypt(dataToEncrypt, false);
+   //      }
+   //      byte[] decryptedData;
+   //      using (RSACryptoServiceProvider RSA = new RSACryptoServiceProvider())
+   //      {
+   //         RSA.FromXmlString(privateKeyXML);
+   //         decryptedData = RSA.Decrypt(encryptedData, false);
+   //      }
+   //      string decryptedString = ByteConverter.GetString(decryptedData);
+   //      Console.WriteLine(decryptedString); // Displays: My Secret Data!
+   //      //////////////////////////////////////////////////////////////
+   //      ///
+   //      string containerName = "secret Container";
+   //      CspParameters cspParameters = new CspParameters() { KeyContainerName = "Secret Container" };
+   //
+   //      using (RSACryptoServiceProvider rsacsp = new RSACryptoServiceProvider(cspParameters))
+   //      {
+   //         encryptedData = rsacsp.Encrypt(dataToEncrypt, false);
+   //      }
+   //      Encoding.UTF8.GetString(encryptedData).Dump(); ;
+   //
+   //      // kyeword check return exeption when it present, unchecked not
+   //      byte x = 150;
+   //      byte y = 12;
+   //      "unchecked ".Dump();
+   //      unchecked((byte)(x * y)).Dump();
+   //      checked((byte)(x * y)).Dump();
+   //
+   //      try
+   //      {
+   //         unchecked((byte)(x * y)).Dump();
+   //      }
+   //      catch (OverflowException)
+   //      {
+   //         Console.WriteLine("Przepełnienie");
+   //      }
+   //      ////////////////////////////////////////////////
+   //
+   //      "end".Dump();
+   //   }
+   //
+   //   public static void EncryptSomeText()
+   //   {
+   //      string original = "My secret data!";
+   //      using (SymmetricAlgorithm symmetricAlgorithm = new AesManaged())
+   //      {
+   //         byte[] encrypted = Encrypt(symmetricAlgorithm, original);
+   //         string roundtrip = Decrypt(symmetricAlgorithm, encrypted);
+   //         Console.WriteLine("Original: {0}", original);
+   //         Console.WriteLine("Round Trip: {0}", roundtrip);
+   //      }
+   //   }
+   //   static byte[] Encrypt(SymmetricAlgorithm aesAlg, string plainText)
+   //   {
+   //      ICryptoTransform encryptor = aesAlg.CreateEncryptor(aesAlg.Key, aesAlg.IV);
+   //      using (MemoryStream msEncrypt = new MemoryStream())
+   //      {
+   //         using (CryptoStream csEncrypt =
+   //         new CryptoStream(msEncrypt, encryptor, CryptoStreamMode.Write))
+   //         {
+   //            using (StreamWriter swEncrypt = new StreamWriter(csEncrypt))
+   //            {
+   //               swEncrypt.Write(plainText);
+   //            }
+   //            return msEncrypt.ToArray();
+   //         }
+   //      }
+   //   }
+   //   static string Decrypt(SymmetricAlgorithm aesAlg, byte[] cipherText)
+   //   {
+   //      ICryptoTransform decryptor = aesAlg.CreateDecryptor(aesAlg.Key, aesAlg.IV);
+   //      using (MemoryStream msDecrypt = new MemoryStream(cipherText))
+   //      {
+   //         using (CryptoStream csDecrypt =
+   //         new CryptoStream(msDecrypt, decryptor, CryptoStreamMode.Read))
+   //         {
+   //            using (StreamReader srDecrypt = new StreamReader(csDecrypt))
+   //            {
+   //               return srDecrypt.ReadToEnd();
+   //            }
+   //         }
+   //      }
+   //   }
+   //}
+   #endregion
+   #region Cert
+   //class Program
+   //{
+   //   public static void SignAndVerify()
+   //   {
+   //      string textToSign = "Test paragraph";
+   //      byte[] signature = Sign(textToSign, "cn = WouterDeKort");
+   //      // Uncomment this line to make the verification step fail
+   //      // signature[0] = 0;
+   //      Console.WriteLine(Verify(textToSign, signature));
+   //   }
+   //   static byte[] Sign(string text, string certSubject)
+   //   {
+   //      X509Certificate2 cert = GetCertificate();
+   //      var csp = (RSACryptoServiceProvider)cert.PrivateKey;
+   //      byte[] hash = HashData(text);
+   //      return csp.SignHash(hash, CryptoConfig.MapNameToOID("SHA1"));
+   //   }
+   //   static bool Verify(string text, byte[] signature)
+   //   {
+   //      X509Certificate2 cert = GetCertificate();
+   //      var csp = (RSACryptoServiceProvider)cert.PublicKey.Key;
+   //      byte[] hash = HashData(text);
+   //      return csp.VerifyHash(hash,
+   //      CryptoConfig.MapNameToOID("SHA1"),
+   //      signature);
+   //   }
+   //   private static byte[] HashData(string text)
+   //   {
+   //      HashAlgorithm hashAlgorithm = new SHA1Managed();
+   //      UnicodeEncoding encoding = new UnicodeEncoding();
+   //      byte[] data = encoding.GetBytes(text);
+   //      byte[] hash = hashAlgorithm.ComputeHash(data);
+   //      return hash;
+   //   }
+   //   private static X509Certificate2 GetCertificate()
+   //   {
+   //      X509Store my = new X509Store("testCertStore",
+   //      StoreLocation.CurrentUser);
+   //      my.Open(OpenFlags.ReadOnly);
+   //      var certificate = my.Certificates[0];
+   //      return certificate;
+   //   }
+   //   public static void Main()
+   //   {
+   //      SignAndVerify();
+   //
+   //      "end".Dump();
+   //
+   //   }
+   //}
+   #endregion
+
+   #region secureString
+   class Program
    {
-      private List<T>[] buckets = new List<T>[100];
-   
-
-
-
-
-}
-
-   class Program2
-   {
-      public static void Main()
+      public static void ConvertToUnsecureString(SecureString securePassword)
       {
-         EncryptSomeText();
-         RSACryptoServiceProvider rsa = new RSACryptoServiceProvider();
-         string publicKeyXML = rsa.ToXmlString(false);
-         string privateKeyXML = rsa.ToXmlString(true);
-         Console.WriteLine(publicKeyXML);
-         "///////////////////////////////////////////////////////////".Dump();
-         Console.WriteLine(privateKeyXML);
-
-         UnicodeEncoding ByteConverter = new UnicodeEncoding();
-         byte[] dataToEncrypt = ByteConverter.GetBytes("My Secret Data!");
-         byte[] encryptedData;
-         using (RSACryptoServiceProvider RSA = new RSACryptoServiceProvider())
-         {
-            RSA.FromXmlString(publicKeyXML);
-            encryptedData = RSA.Encrypt(dataToEncrypt, false);
-         }
-         byte[] decryptedData;
-         using (RSACryptoServiceProvider RSA = new RSACryptoServiceProvider())
-         {
-            RSA.FromXmlString(privateKeyXML);
-            decryptedData = RSA.Decrypt(encryptedData, false);
-         }
-         string decryptedString = ByteConverter.GetString(decryptedData);
-         Console.WriteLine(decryptedString); // Displays: My Secret Data!
-         //////////////////////////////////////////////////////////////
-         ///
-         string containerName = "secret Container";
-         CspParameters cspParameters = new CspParameters() { KeyContainerName = "Secret Container" };
-
-         using (RSACryptoServiceProvider rsacsp = new RSACryptoServiceProvider(cspParameters))
-         {
-            encryptedData = rsacsp.Encrypt(dataToEncrypt, false);
-         }
-         Encoding.UTF8.GetString(encryptedData).Dump(); ;
-
-         // kyeword check return exeption when it present, unchecked not
-         byte x = 150;
-         byte y = 12;
-         "unchecked ".Dump();
-         unchecked((byte)(x * y)).Dump();
-         checked((byte)(x * y)).Dump();
-
+         IntPtr unmanagedString = IntPtr.Zero;
          try
          {
-            unchecked((byte)(x * y)).Dump();
+            unmanagedString = Marshal.SecureStringToGlobalAllocUnicode(securePassword);
+            Console.WriteLine(Marshal.PtrToStringUni(unmanagedString));
          }
-         catch (OverflowException)
+         finally
          {
-            Console.WriteLine("Przepełnienie");
-         }
-         ////////////////////////////////////////////////
-
-
-
-
-
-
-
-
-
-
-
-
-
-         "end".Dump();
-      }
-
-      public static void EncryptSomeText()
-      {
-         string original = "My secret data!";
-         using (SymmetricAlgorithm symmetricAlgorithm = new AesManaged())
-         {
-            byte[] encrypted = Encrypt(symmetricAlgorithm, original);
-            string roundtrip = Decrypt(symmetricAlgorithm, encrypted);
-            Console.WriteLine("Original: {0}", original);
-            Console.WriteLine("Round Trip: {0}", roundtrip);
+            Marshal.ZeroFreeGlobalAllocUnicode(unmanagedString);
          }
       }
-      static byte[] Encrypt(SymmetricAlgorithm aesAlg, string plainText)
+
+      public static void Main()
       {
-         ICryptoTransform encryptor = aesAlg.CreateEncryptor(aesAlg.Key, aesAlg.IV);
-         using (MemoryStream msEncrypt = new MemoryStream())
+         using (SecureString ss = new SecureString())
          {
-            using (CryptoStream csEncrypt =
-            new CryptoStream(msEncrypt, encryptor, CryptoStreamMode.Write))
+            Console.Write("Please enter password: ");
+            while (true)
             {
-               using (StreamWriter swEncrypt = new StreamWriter(csEncrypt))
-               {
-                  swEncrypt.Write(plainText);
-               }
-               return msEncrypt.ToArray();
+               ConsoleKeyInfo cki = Console.ReadKey(true);
+               if (cki.Key == ConsoleKey.Enter) break;
+               ss.AppendChar(cki.KeyChar);
+               Console.Write("*");
+               Console.Write($"{cki.KeyChar}");
             }
+            ss.MakeReadOnly();
          }
-      }
-      static string Decrypt(SymmetricAlgorithm aesAlg, byte[] cipherText)
-      {
-         ICryptoTransform decryptor = aesAlg.CreateDecryptor(aesAlg.Key, aesAlg.IV);
-         using (MemoryStream msDecrypt = new MemoryStream(cipherText))
-         {
-            using (CryptoStream csDecrypt =
-            new CryptoStream(msDecrypt, decryptor, CryptoStreamMode.Read))
-            {
-               using (StreamReader srDecrypt = new StreamReader(csDecrypt))
-               {
-                  return srDecrypt.ReadToEnd();
-               }
-            }
-         }
+
+         SecureString sec = new SecureString();
+         sec.AppendChar('h');
+         sec.AppendChar('h');
+         sec.AppendChar('h');
+         ConvertToUnsecureString(sec);
+
       }
    }
    #endregion
