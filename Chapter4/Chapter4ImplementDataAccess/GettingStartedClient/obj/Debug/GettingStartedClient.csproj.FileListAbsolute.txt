@@ -1,0 +1,7 @@
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\GettingStartedClient\bin\Debug\GettingStartedClient.exe.config
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\GettingStartedClient\bin\Debug\GettingStartedClient.exe
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\GettingStartedClient\bin\Debug\GettingStartedClient.pdb
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\GettingStartedClient\obj\Debug\GettingStartedClient.csprojAssemblyReference.cache
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\GettingStartedClient\obj\Debug\GettingStartedClient.csproj.CoreCompileInputs.cache
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\GettingStartedClient\obj\Debug\GettingStartedClient.exe
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\GettingStartedClient\obj\Debug\GettingStartedClient.pdb

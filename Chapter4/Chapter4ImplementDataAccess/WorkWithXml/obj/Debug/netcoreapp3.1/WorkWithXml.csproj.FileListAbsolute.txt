@@ -1,0 +1,13 @@
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\WorkWithXml\bin\Debug\netcoreapp3.1\WorkWithXml.exe
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\WorkWithXml\bin\Debug\netcoreapp3.1\WorkWithXml.deps.json
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\WorkWithXml\bin\Debug\netcoreapp3.1\WorkWithXml.runtimeconfig.json
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\WorkWithXml\bin\Debug\netcoreapp3.1\WorkWithXml.runtimeconfig.dev.json
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\WorkWithXml\bin\Debug\netcoreapp3.1\WorkWithXml.dll
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\WorkWithXml\bin\Debug\netcoreapp3.1\WorkWithXml.pdb
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\WorkWithXml\obj\Debug\netcoreapp3.1\WorkWithXml.csprojAssemblyReference.cache
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\WorkWithXml\obj\Debug\netcoreapp3.1\WorkWithXml.AssemblyInfoInputs.cache
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\WorkWithXml\obj\Debug\netcoreapp3.1\WorkWithXml.AssemblyInfo.cs
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\WorkWithXml\obj\Debug\netcoreapp3.1\WorkWithXml.csproj.CoreCompileInputs.cache
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\WorkWithXml\obj\Debug\netcoreapp3.1\WorkWithXml.dll
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\WorkWithXml\obj\Debug\netcoreapp3.1\WorkWithXml.pdb
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\WorkWithXml\obj\Debug\netcoreapp3.1\WorkWithXml.genruntimeconfig.cache

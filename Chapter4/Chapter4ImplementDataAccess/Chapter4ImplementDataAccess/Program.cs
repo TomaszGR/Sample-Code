@@ -22,36 +22,36 @@ namespace Chapter4ImplementDataAccess
       }
    }
 
-   class People
-   {
-      public int Id { get; set; }
-      public string FirstName { get; set; }
-      public string MiddleName { get; set; }
-      public string LastName { get; set; }
-   }
-
-   class PeopleContext : DbContext
-   {
-      /// <summary>
-      /// Option2 configuring access to db in contructor, and pass the oprions from outside, for example dependency injedction or directrly from tethot whatever
-      /// </summary>
-      /// <param name="dbContextOptions"></param>
-      public PeopleContext(DbContextOptions<PeopleContext> dbContextOptions) : base(dbContextOptions)
-      {
-
-      }
-
-      /// <summary>
-      ///Option 1configure access to database by overriding OnConfiguring method
-      /// </summary>
-      //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-      //{
-      //   optionsBuilder.UseSqlServer(connectionString: @"Data Source = TGRZADZIEL\MSSQL2017; Initial Catalog = AdventureWorksLT2008R2; Integrated Security = True");
-      //}
-
-      public DbSet<People> People { get; set; }
-
-   }
+   //class People
+   //{
+   //   public int Id { get; set; }
+   //   public string FirstName { get; set; }
+   //   public string MiddleName { get; set; }
+   //   public string LastName { get; set; }
+   //}
+   //
+   //class PeopleContext : DbContext
+   //{
+   //   /// <summary>
+   //   /// Option2 configuring access to db in contructor, and pass the oprions from outside, for example dependency injedction or directrly from tethot whatever
+   //   /// </summary>
+   //   /// <param name="dbContextOptions"></param>
+   //   public PeopleContext(DbContextOptions<PeopleContext> dbContextOptions) : base(dbContextOptions)
+   //   {
+   //
+   //   }
+   //
+   //   /// <summary>
+   //   ///Option 1configure access to database by overriding OnConfiguring method
+   //   /// </summary>
+   //   //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+   //   //{
+   //   //   optionsBuilder.UseSqlServer(connectionString: @"Data Source = TGRZADZIEL\MSSQL2017; Initial Catalog = AdventureWorksLT2008R2; Integrated Security = True");
+   //   //}
+   //
+   //   public DbSet<People> People { get; set; }
+   //
+   //}
 
    class Program
    {
@@ -264,100 +264,109 @@ namespace Chapter4ImplementDataAccess
       //
       #endregion
       #region ADO.NET data access
-      public static async Task Main()
+      //public static async Task Main()
+      //{
+      //   await SelectDataFromTable();
+      //   //await UpdateRows();
+      //   //InsertScopeRows();
+      //
+      //   DbContextOptionsBuilder<PeopleContext> builder = new DbContextOptionsBuilder<PeopleContext>();
+      //   builder.UseSqlServer(connectionString: @"Data Source = TGRZADZIEL\MSSQL2017; Initial Catalog = AdventureWorksLT2008R2; Integrated Security = True");
+      //
+      //   using (PeopleContext context = new PeopleContext(builder.Options))
+      //   {
+      //      context.People.Add(new People() { FirstName = "Barabara", LastName = "Kasia", MiddleName = "von" });
+      //      context.SaveChanges();
+      //   }
+      //   "end".Dump();
+      //}
+      //
+      //public static async Task SelectDataFromTable()
+      //{
+      //   using (SqlConnection connection = new SqlConnection(@"Data Source=TGRZADZIEL\MSSQL2017;Initial Catalog=AdventureWorksLT2008R2;Integrated Security=True"))
+      //   {
+      //      SqlCommand command = new SqlCommand("SELECT * FROM People", connection);
+      //      await connection.OpenAsync();
+      //      SqlDataReader dataReader = await command.ExecuteReaderAsync();
+      //      while (await dataReader.ReadAsync())
+      //      {
+      //         string formatStringWithMiddleName = "Person({0}) is named {1} {2} {3}";
+      //         string formatStringWithoutMiddleName = "Person({0}) is named {1} {3}";
+      //         if ((dataReader["middlename"] == null))
+      //         {
+      //            Console.WriteLine(formatStringWithoutMiddleName,
+      //            dataReader["id"],
+      //            dataReader["firstname"],
+      //            dataReader["lastname"]);
+      //         }
+      //         else
+      //         {
+      //            Console.WriteLine(formatStringWithMiddleName,
+      //            dataReader["id"],
+      //            dataReader["firstname"],
+      //            dataReader["middlename"],
+      //            dataReader["lastname"]);
+      //         }
+      //      }
+      //      dataReader.Close();
+      //   }
+      //}
+      //public static async Task UpdateRows()
+      //{
+      //   using SqlConnection connection = new SqlConnection(@"Data Source=TGRZADZIEL\MSSQL2017;Initial Catalog=AdventureWorksLT2008R2;Integrated Security=True");
+      //   SqlCommand command = new SqlCommand("UPDATE People SET FirstName ='John'", connection);
+      //   await connection.OpenAsync();
+      //   int numberOfUpdatedRows = await command.ExecuteNonQueryAsync();
+      //   Console.WriteLine("Updated {0} rows", numberOfUpdatedRows);
+      //}
+      //public static async Task InsertRows()
+      //{
+      //   using SqlConnection connection = new SqlConnection(@"Data Source=TGRZADZIEL\MSSQL2017;Initial Catalog=AdventureWorksLT2008R2;Integrated Security=True");
+      //   SqlCommand command = new SqlCommand("INSERT into People([FirstName], [MiddleName], [LastName]) Values (@" +
+      //      "firstName, @middleName, @lastName)", connection);
+      //   await connection.OpenAsync();
+      //   command.Parameters.AddWithValue("@firstName", "John");
+      //   command.Parameters.AddWithValue("@middleName", "Peter");
+      //   command.Parameters.AddWithValue("@lastName", "Orkan");
+      //   int numberOfUpdatedRows = await command.ExecuteNonQueryAsync();
+      //   Console.WriteLine("Inserted {0} rows", numberOfUpdatedRows);
+      //}
+      //public static void InsertScopeRows()
+      //{
+      //   using (TransactionScope transaction = new TransactionScope())
+      //   {
+      //      using (SqlConnection connection = new SqlConnection(@"Data Source=TGRZADZIEL\MSSQL2017;Initial Catalog=AdventureWorksLT2008R2;Integrated Security=True"))
+      //      {
+      //         connection.OpenAsync();
+      //
+      //         SqlCommand command = new SqlCommand("INSERT into People([FirstName], [MiddleName], [LastName]) Values (@" +
+      //            "firstName, @middleName, @lastName)", connection);
+      //         command.Parameters.AddWithValue("@firstName", "John11");
+      //         command.Parameters.AddWithValue("@middleName", "Peter11");
+      //         command.Parameters.AddWithValue("@lastName", "Orkan11");
+      //
+      //         SqlCommand command2 = new SqlCommand("INSERT into People([FirstName], [MiddleName], [LastName]) Values (@" +
+      //            "firstName, @middleName, @lastName)", connection);
+      //         command2.Parameters.AddWithValue("@firstName", "John21");
+      //         command2.Parameters.AddWithValue("@middleName", "Peter21");
+      //         command2.Parameters.AddWithValue("@lastName", "Orkan21");
+      //
+      //         command.ExecuteNonQuery();
+      //         command2.ExecuteNonQuery();
+      //      }
+      //
+      //      transaction.Complete();
+      //   }
+      //}
+      #endregion
+      #region web Services
+      public static void Main()
       {
-         await SelectDataFromTable();
-         //await UpdateRows();
-         //InsertScopeRows();
 
-         DbContextOptionsBuilder<PeopleContext> builder = new DbContextOptionsBuilder<PeopleContext>();
-         builder.UseSqlServer(connectionString: @"Data Source = TGRZADZIEL\MSSQL2017; Initial Catalog = AdventureWorksLT2008R2; Integrated Security = True");
-
-         using (PeopleContext context = new PeopleContext(builder.Options))
-         {
-            context.People.Add(new People() { FirstName = "Barabara", LastName = "Kasia", MiddleName = "von" });
-            context.SaveChanges();
-         }
-         "end".Dump();
       }
 
-      public static async Task SelectDataFromTable()
-      {
-         using (SqlConnection connection = new SqlConnection(@"Data Source=TGRZADZIEL\MSSQL2017;Initial Catalog=AdventureWorksLT2008R2;Integrated Security=True"))
-         {
-            SqlCommand command = new SqlCommand("SELECT * FROM People", connection);
-            await connection.OpenAsync();
-            SqlDataReader dataReader = await command.ExecuteReaderAsync();
-            while (await dataReader.ReadAsync())
-            {
-               string formatStringWithMiddleName = "Person({0}) is named {1} {2} {3}";
-               string formatStringWithoutMiddleName = "Person({0}) is named {1} {3}";
-               if ((dataReader["middlename"] == null))
-               {
-                  Console.WriteLine(formatStringWithoutMiddleName,
-                  dataReader["id"],
-                  dataReader["firstname"],
-                  dataReader["lastname"]);
-               }
-               else
-               {
-                  Console.WriteLine(formatStringWithMiddleName,
-                  dataReader["id"],
-                  dataReader["firstname"],
-                  dataReader["middlename"],
-                  dataReader["lastname"]);
-               }
-            }
-            dataReader.Close();
-         }
-      }
-      public static async Task UpdateRows()
-      {
-         using SqlConnection connection = new SqlConnection(@"Data Source=TGRZADZIEL\MSSQL2017;Initial Catalog=AdventureWorksLT2008R2;Integrated Security=True");
-         SqlCommand command = new SqlCommand("UPDATE People SET FirstName ='John'", connection);
-         await connection.OpenAsync();
-         int numberOfUpdatedRows = await command.ExecuteNonQueryAsync();
-         Console.WriteLine("Updated {0} rows", numberOfUpdatedRows);
-      }
-      public static async Task InsertRows()
-      {
-         using SqlConnection connection = new SqlConnection(@"Data Source=TGRZADZIEL\MSSQL2017;Initial Catalog=AdventureWorksLT2008R2;Integrated Security=True");
-         SqlCommand command = new SqlCommand("INSERT into People([FirstName], [MiddleName], [LastName]) Values (@" +
-            "firstName, @middleName, @lastName)", connection);
-         await connection.OpenAsync();
-         command.Parameters.AddWithValue("@firstName", "John");
-         command.Parameters.AddWithValue("@middleName", "Peter");
-         command.Parameters.AddWithValue("@lastName", "Orkan");
-         int numberOfUpdatedRows = await command.ExecuteNonQueryAsync();
-         Console.WriteLine("Inserted {0} rows", numberOfUpdatedRows);
-      }
-      public static void InsertScopeRows()
-      {
-         using (TransactionScope transaction = new TransactionScope())
-         {
-            using (SqlConnection connection = new SqlConnection(@"Data Source=TGRZADZIEL\MSSQL2017;Initial Catalog=AdventureWorksLT2008R2;Integrated Security=True"))
-            {
-               connection.OpenAsync();
 
-               SqlCommand command = new SqlCommand("INSERT into People([FirstName], [MiddleName], [LastName]) Values (@" +
-                  "firstName, @middleName, @lastName)", connection);
-               command.Parameters.AddWithValue("@firstName", "John11");
-               command.Parameters.AddWithValue("@middleName", "Peter11");
-               command.Parameters.AddWithValue("@lastName", "Orkan11");
 
-               SqlCommand command2 = new SqlCommand("INSERT into People([FirstName], [MiddleName], [LastName]) Values (@" +
-                  "firstName, @middleName, @lastName)", connection);
-               command2.Parameters.AddWithValue("@firstName", "John21");
-               command2.Parameters.AddWithValue("@middleName", "Peter21");
-               command2.Parameters.AddWithValue("@lastName", "Orkan21");
-
-               command.ExecuteNonQuery();
-               command2.ExecuteNonQuery();
-            }
-
-            transaction.Complete();
-         }
-      }
       #endregion
    }
 }
