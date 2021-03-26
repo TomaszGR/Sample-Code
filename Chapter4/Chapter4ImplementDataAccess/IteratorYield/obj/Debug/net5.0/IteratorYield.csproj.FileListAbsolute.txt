@@ -1,0 +1,16 @@
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\IteratorYield\bin\Debug\net5.0\IteratorYield.exe
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\IteratorYield\bin\Debug\net5.0\IteratorYield.deps.json
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\IteratorYield\bin\Debug\net5.0\IteratorYield.runtimeconfig.json
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\IteratorYield\bin\Debug\net5.0\IteratorYield.runtimeconfig.dev.json
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\IteratorYield\bin\Debug\net5.0\IteratorYield.dll
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\IteratorYield\bin\Debug\net5.0\ref\IteratorYield.dll
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\IteratorYield\bin\Debug\net5.0\IteratorYield.pdb
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\IteratorYield\obj\Debug\net5.0\IteratorYield.csprojAssemblyReference.cache
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\IteratorYield\obj\Debug\net5.0\IteratorYield.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\IteratorYield\obj\Debug\net5.0\IteratorYield.AssemblyInfoInputs.cache
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\IteratorYield\obj\Debug\net5.0\IteratorYield.AssemblyInfo.cs
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\IteratorYield\obj\Debug\net5.0\IteratorYield.csproj.CoreCompileInputs.cache
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\IteratorYield\obj\Debug\net5.0\IteratorYield.dll
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\IteratorYield\obj\Debug\net5.0\ref\IteratorYield.dll
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\IteratorYield\obj\Debug\net5.0\IteratorYield.pdb
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\IteratorYield\obj\Debug\net5.0\IteratorYield.genruntimeconfig.cache

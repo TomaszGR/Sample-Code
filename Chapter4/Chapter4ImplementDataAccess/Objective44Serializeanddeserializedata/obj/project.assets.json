@@ -1,0 +1,74 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net5.0": []
+  },
+  "packageFolders": {
+    "C:\\Users\\tomasz.grzadziel\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\tomasz.grzadziel\\repos\\Sample-Code\\Chapter4\\Chapter4ImplementDataAccess\\Objective44Serializeanddeserializedata\\Objective44Serializeanddeserializedata.csproj",
+      "projectName": "Objective44Serializeanddeserializedata",
+      "projectPath": "C:\\Users\\tomasz.grzadziel\\repos\\Sample-Code\\Chapter4\\Chapter4ImplementDataAccess\\Objective44Serializeanddeserializedata\\Objective44Serializeanddeserializedata.csproj",
+      "packagesPath": "C:\\Users\\tomasz.grzadziel\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tomasz.grzadziel\\repos\\Sample-Code\\Chapter4\\Chapter4ImplementDataAccess\\Objective44Serializeanddeserializedata\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\tomasz.grzadziel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "\\\\public\\versions\\archITekt\\17.1\\!Official": {},
+        "\\\\public\\versions\\archITekt\\18.1\\!Official": {},
+        "http://constructor/nuget.server/nuget": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

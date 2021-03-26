@@ -1,0 +1,16 @@
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\Objective44Serializeanddeserializedata\bin\Debug\net5.0\Objective44Serializeanddeserializedata.exe
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\Objective44Serializeanddeserializedata\bin\Debug\net5.0\Objective44Serializeanddeserializedata.deps.json
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\Objective44Serializeanddeserializedata\bin\Debug\net5.0\Objective44Serializeanddeserializedata.runtimeconfig.json
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\Objective44Serializeanddeserializedata\bin\Debug\net5.0\Objective44Serializeanddeserializedata.runtimeconfig.dev.json
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\Objective44Serializeanddeserializedata\bin\Debug\net5.0\Objective44Serializeanddeserializedata.dll
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\Objective44Serializeanddeserializedata\bin\Debug\net5.0\ref\Objective44Serializeanddeserializedata.dll
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\Objective44Serializeanddeserializedata\bin\Debug\net5.0\Objective44Serializeanddeserializedata.pdb
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\Objective44Serializeanddeserializedata\obj\Debug\net5.0\Objective44Serializeanddeserializedata.csprojAssemblyReference.cache
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\Objective44Serializeanddeserializedata\obj\Debug\net5.0\Objective44Serializeanddeserializedata.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\Objective44Serializeanddeserializedata\obj\Debug\net5.0\Objective44Serializeanddeserializedata.AssemblyInfoInputs.cache
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\Objective44Serializeanddeserializedata\obj\Debug\net5.0\Objective44Serializeanddeserializedata.AssemblyInfo.cs
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\Objective44Serializeanddeserializedata\obj\Debug\net5.0\Objective44Serializeanddeserializedata.csproj.CoreCompileInputs.cache
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\Objective44Serializeanddeserializedata\obj\Debug\net5.0\Objective44Serializeanddeserializedata.dll
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\Objective44Serializeanddeserializedata\obj\Debug\net5.0\ref\Objective44Serializeanddeserializedata.dll
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\Objective44Serializeanddeserializedata\obj\Debug\net5.0\Objective44Serializeanddeserializedata.pdb
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\Chapter4ImplementDataAccess\Objective44Serializeanddeserializedata\obj\Debug\net5.0\Objective44Serializeanddeserializedata.genruntimeconfig.cache
