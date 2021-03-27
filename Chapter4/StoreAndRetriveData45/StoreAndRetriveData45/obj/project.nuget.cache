@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "1cYPzCiBfUrtMiYJSFENgDKC/n2GMr2BoyY+NhrF/1+rlTmkjwzJ97dY756vmjQX+Hl8ZIHoEY2+3uv8DjWA8g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\tomasz.grzadziel\\repos\\Sample-Code\\Chapter4\\StoreAndRetriveData45\\StoreAndRetriveData45\\StoreAndRetriveData45.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tomasz.grzadziel\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\tomasz.grzadziel\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
+    "C:\\Users\\tomasz.grzadziel\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

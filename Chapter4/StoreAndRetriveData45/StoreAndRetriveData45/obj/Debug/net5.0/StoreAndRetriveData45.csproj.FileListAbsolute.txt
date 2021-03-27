@@ -1,0 +1,16 @@
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\StoreAndRetriveData45\StoreAndRetriveData45\bin\Debug\net5.0\StoreAndRetriveData45.exe
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\StoreAndRetriveData45\StoreAndRetriveData45\bin\Debug\net5.0\StoreAndRetriveData45.deps.json
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\StoreAndRetriveData45\StoreAndRetriveData45\bin\Debug\net5.0\StoreAndRetriveData45.runtimeconfig.json
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\StoreAndRetriveData45\StoreAndRetriveData45\bin\Debug\net5.0\StoreAndRetriveData45.runtimeconfig.dev.json
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\StoreAndRetriveData45\StoreAndRetriveData45\bin\Debug\net5.0\StoreAndRetriveData45.dll
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\StoreAndRetriveData45\StoreAndRetriveData45\bin\Debug\net5.0\ref\StoreAndRetriveData45.dll
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\StoreAndRetriveData45\StoreAndRetriveData45\bin\Debug\net5.0\StoreAndRetriveData45.pdb
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\StoreAndRetriveData45\StoreAndRetriveData45\obj\Debug\net5.0\StoreAndRetriveData45.csprojAssemblyReference.cache
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\StoreAndRetriveData45\StoreAndRetriveData45\obj\Debug\net5.0\StoreAndRetriveData45.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\StoreAndRetriveData45\StoreAndRetriveData45\obj\Debug\net5.0\StoreAndRetriveData45.AssemblyInfoInputs.cache
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\StoreAndRetriveData45\StoreAndRetriveData45\obj\Debug\net5.0\StoreAndRetriveData45.AssemblyInfo.cs
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\StoreAndRetriveData45\StoreAndRetriveData45\obj\Debug\net5.0\StoreAndRetriveData45.csproj.CoreCompileInputs.cache
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\StoreAndRetriveData45\StoreAndRetriveData45\obj\Debug\net5.0\StoreAndRetriveData45.dll
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\StoreAndRetriveData45\StoreAndRetriveData45\obj\Debug\net5.0\ref\StoreAndRetriveData45.dll
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\StoreAndRetriveData45\StoreAndRetriveData45\obj\Debug\net5.0\StoreAndRetriveData45.pdb
+C:\Users\tomasz.grzadziel\repos\Sample-Code\Chapter4\StoreAndRetriveData45\StoreAndRetriveData45\obj\Debug\net5.0\StoreAndRetriveData45.genruntimeconfig.cache
